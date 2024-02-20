@@ -1,9 +1,1545 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "features": [
+    {
+      "feature_idx": 0,
+      "name": "caption",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 1,
+      "name": "image",
+      "type": {
+        "_type": "Image"
+      }
+    },
+    {
+      "feature_idx": 2,
+      "name": "link",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 3,
+      "name": "message_id",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 4,
+      "name": "timestamp",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "rows": [
+    {
+      "row_idx": 0,
+      "row": {
+        "caption": "Amidst the towering skyscrapers and congested streets of a metropolis, chaotic energy abounds. The scene is a collision of neon lights, honking vehicles, rushing pedestrians, and graffiti-covered walls, all contributing to an unrelenting urban frenzy.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/0/image/image.jpg?Expires=1708398269&Signature=WlihusTm7R7~vJ~IQKJhiEh9xnJipHVEVJvmoZk5Jfs3cmwUfHLgcIWIEjzvpGu~2JrRDbq1oEdnPWlIT7H8n4~8uwfos2ZG7dzWOJDWtKBtUIMhwCThxvjp2-NGxH-mWcmiWLZXI5kGXTt0ZEbcUmnvZMtyLR45Vr2ExZu4T7zcOnCi-KYKr-8mqx0i85yNleL0HAZDdcksy2lzaifHNH5eAOPzBxc9vlCe1SPP~zOFKMiyiAUQ87qxizFJi2uDS7c2AczhIOVRD4bJrGwBErgjG2XXWHsnZIlJ58aq5f2kgr9paeUPrgVQc5t-Ihi-jfge17XWPpfA3qaIDxz3qw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163229131371192431/9e18e126-ec8e-4c62-b512-d00899726fc5.jpg?ex=653ed08c&is=652c5b8c&hm=ec95543d046be2f1879c569890a298a043070d34eebcfa3106d6141e24d0133f&",
+        "message_id": "1163229132847591424",
+        "timestamp": "2023-10-15T21:37:17.023000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1,
+      "row": {
+        "caption": "Amidst the towering skyscrapers and congested streets of a metropolis, chaotic energy abounds. The scene is a collision of neon lights, honking vehicles, rushing pedestrians, and graffiti-covered walls, all contributing to an unrelenting urban frenzy.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/1/image/image.jpg?Expires=1708398269&Signature=Jrv5hlcsEQr~wr0cuABW-VVda0ItTvKUY2vRAQ-Qfyw5SAaFeMv3NQ-1PwYaUjnGvb49xubYvHVpvwo75kFne~o0UVRSpmatI5qwCYxKli1HP9hSkrIeEtLaQ2fVf50cyM-hRSVAu-erVZMZrEVl8bMNbtxpgr6~Xs8i6XHjSRfEwdv3xOsHMdF5n-EYBNECZvVIReWQfeb12d92VrANrjRubdZz7z5Y9IP~XytucGLtHitsuDdS2fG~TuTOt~XYhGrQGXew-FP5zTl9BDu2tfV877k2PxmlFzBwCkZSGM9HXjBbOYByfkQk~gnE3zOpHBMgkHBFDFjI5j76XHfGlg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163229131752865832/27f8b6c9-e7ca-47fd-a4ea-5789e4852996.jpg?ex=653ed08c&is=652c5b8c&hm=f6ff694fd0c202d94ff0a4bf2200caf31c1cd1a909d3922981d114a107c97f1c&",
+        "message_id": "1163229132847591424",
+        "timestamp": "2023-10-15T21:37:17.023000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 2,
+      "row": {
+        "caption": "Amidst the towering skyscrapers and congested streets of a metropolis, chaotic energy abounds. The scene is a collision of neon lights, honking vehicles, rushing pedestrians, and graffiti-covered walls, all contributing to an unrelenting urban frenzy.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/2/image/image.jpg?Expires=1708398269&Signature=BBugPpU66QaCAjpCajxaFqp69CSeb41JFoOfdUzzh~Gv0ggQVQvi5jVMl6OtzQd63aAYsx4oSTzuzL1iAq2~54xP28HoRm4iK22m7MnWFUKBZ6bwMfez7u1IXp85nxD0dJcXzPr-v5pxMXcaXaDJzr4SLBLqJtBvAlM90Vzd2eVanCj0xtSO~Gjsu439qSacvuzW037X4s0yha4bqlQGz-H-dsVgctVVAuW63jkihrxzx8BDEExzp2TW97NUMSjh70tLTwSL49CicWF~h~o4MzxUnQi0Y9bXFRZA8erURTJM8q0QB6lcAd1rVzUYG8~XO5rGrjx2y2kCiv-pbhhnhA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163229132277161984/ed3fbabf-16d1-471e-9c33-4704ee1e7b59.jpg?ex=653ed08c&is=652c5b8c&hm=d9ac76647142a1add3aba2beb6e112051c727b041d3224092873bd1ead215647&",
+        "message_id": "1163229132847591424",
+        "timestamp": "2023-10-15T21:37:17.023000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 3,
+      "row": {
+        "caption": "Amidst the towering skyscrapers and congested streets of a metropolis, chaotic energy abounds. The scene is a collision of neon lights, honking vehicles, rushing pedestrians, and graffiti-covered walls, all contributing to an unrelenting urban frenzy.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/3/image/image.jpg?Expires=1708398269&Signature=jkz5rx11VzbLmB~8JDvJw6Gz9e4Jwd0qx1jOi5YCx8hKp0kizxQJeLiwOOQAzGBN1dCf5PVTHNzqAECw3X2N48kqCPk7keHcfaojZurlTr4NOjXDX0JrQc~~3v4Nb3EmwJNJjOSzT5l8ozRtT83vokiooVH6N~Llog-uDNe3V9ewsKwX4~YLcieQQwHk8Zu1fy~T6LR--ZjgFBaXpcCcMTCRzkSiWZ4xRJa8rHccO2M-QtLo3oPuYnZudIuBzAyKVqL8NU40mUgCUv-3GxukGdgnCL7kEEQSG1gffKvvhgJvsxk0EGLvSMGZxFRvjswGGckVoUB-oQYWso4~9QhWyg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163229132583338104/265825c4-5e29-4ca8-81de-69fd096abf56.jpg?ex=653ed08c&is=652c5b8c&hm=c40571b29059e389ea9db2d5c44785779e0c93c4697e2e5c0f05bb8e9f275688&",
+        "message_id": "1163229132847591424",
+        "timestamp": "2023-10-15T21:37:17.023000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 4,
+      "row": {
+        "caption": "Wide anime-styled hand-drawn image with watercolor blending on chrome steel, echoing 20th century symbolism and Klimt's artistry, set in the 1940s. A man, with a noble stance but a less polished appearance, softly interacts with an enigmatic entity. There's a subtle, uncanny quality to his expression and the overall composition, creating a sense of unease and curiosity. The image exudes both authority and a hint of eeriness. Genre: Tragic romance. White borders",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/4/image/image.jpg?Expires=1708398269&Signature=rOXgJX0fA6OApo3aXzU-Z0ovLEEUUjhaTpXZQwOjZ1jfA1L760Ljs6fFkE0efLLn6AG3uHNYUGb95Y~Mfw5Xo2-qviITu-A9zBemABh-TBmTZuP6BBRTckkAu8~E3HXYqSNMm3Ukru39P5aej3CltaT1CpmfVlKk8P9PiK06wxzQhFR6ccOD1tRJjBxuUoYYsRKj8A7ZNiolDNd1WtJ0dR2KE8M5al0enIAqxbkw1QfYXO8CswoGfpgiK7UrlYcsy7iXaKUvI~YAp4NUxBPR9qCohvQo3dDJBl7OfOvMytlKI7x3pepQ6INEBIs6FiGoXdF2KeoUcAF9HgpszzY8aA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1792
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163228854257733782/3fd3de66-0b14-43d5-ba92-e1a28340fa9f-2.webp?ex=653ed04a&is=652c5b4a&hm=c7c12435015101cd04a2cc8e6b1c2d9a5c3876da366f1f4abe605bbfb1fd6ec2&",
+        "message_id": "1163228854639394837",
+        "timestamp": "2023-10-15T21:36:10.693000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 5,
+      "row": {
+        "caption": "In a serene and surreal tableau, an artist in all-white attire floats gracefully in a pool of milk. Her closed eyes and tranquil expression convey deep introspection as ripples radiate from their gentle movements, blurring the boundaries between reality and imagination.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/5/image/image.jpg?Expires=1708398269&Signature=dkZv925hOVzf8vc3Ovu~KcsF1h3Zo2qw-ydqriG26h7bNKp7ltrVT01nWFqTlK6~D8~whGNbyERIQIJOTo2Bi9x4oz5wl2XN9qcrOAu8uVV9IL8KRBBs8yqmSG-avA0i6SNNjsV0WQYYHqfS99L8yG1Q1Vp3HL3D5vkASuBdu-g1aiIVWGwdbDYWspxWrCiALHzR-xGSNkTiMgzydLlvZJz2-jOTlhIXqGlaWTmmHjHqF-p7B7tuXsw1MO~CS5iWirsd3Z5qollTfRuLn9uNnx5RhDejm8VLbcceLjiREcJi-2RaKeXCecAC-Ma9hsXb28WfYgA-pnt0V8FoD2o6rg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163228489374240898/a75e50df-1d8e-4ce4-96fa-5d28bb20450e.jpg?ex=653ecff3&is=652c5af3&hm=e980d5a07a31fb8afaba2c4ac5e318a0693c08ad12270c9df267fddf53447469&",
+        "message_id": "1163228490334740490",
+        "timestamp": "2023-10-15T21:34:43.836000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 6,
+      "row": {
+        "caption": "In a serene and surreal tableau, an artist in all-white attire floats gracefully in a pool of milk. Her closed eyes and tranquil expression convey deep introspection as ripples radiate from their gentle movements, blurring the boundaries between reality and imagination.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/6/image/image.jpg?Expires=1708398269&Signature=cbcOjINyEAAVGUFQ0hteLueUxHGXilNk8FnM1W8hMfIz3g2toO1fl8iiSnHd5ytFu8vvpFDHzbvNhaA0VGt3BmVmOJv-Bs-BMK2~n1~u1svrT7t8AOqjM8re4rq4mF4z9GxCaww1H0gV2b4GrAmjGYPWvgoxX~ukCDaquhQ1hRJS7RSTPoMse5Hq-knoGo7vULcOrf3Csfdf9lFpkAoLlq-p~ViH4xRn4CWlRGKDCKSYbeLzQ6W2D0Way8-5ED~vu906yvNN-9TBl3kU-99MjgstWDxZQ1teJ8hJpx~lJUo5GzCfd~BgNmY-3UYuvl-HqsdyhLKdkpzUwYoC~o0lfA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163228489772716153/9f7774a8-8d68-4cf0-8e92-aca50e6047da.jpg?ex=653ecff3&is=652c5af3&hm=bd9a9275d7ea6911bb3c1aac0f811cb628e35b88c1041d028df5b741a99e3ac1&",
+        "message_id": "1163228490334740490",
+        "timestamp": "2023-10-15T21:34:43.836000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 7,
+      "row": {
+        "caption": "In a serene and surreal tableau, an artist in all-white attire floats gracefully in a pool of milk. Her closed eyes and tranquil expression convey deep introspection as ripples radiate from their gentle movements, blurring the boundaries between reality and imagination.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/7/image/image.jpg?Expires=1708398269&Signature=oiSFAzZgVqe7QleqCQtE6-jt9h3dO1gl-nRqIpR~5-BS-lo27iXjs43Mb85ZGqmeqezmx0i~mWXPneiNoKRjUye5gu4GWl-7X1qefDn~uSMTdQF25s9ESKknlqXb-FxuzwBOT90S6btFh2qrYLVaYpU4TBo5XfjJcc~Mz6RH6RKIhDLrDf7~z7p8OuPXJ2j9F7E9g96URJ5FWx0BLVGOD5GSmLaHfflcM0P1-XL1i5teLSuXXO2Rm1TmZr0le0HnzaSRwPxp6yd6z720GVuno-SoPhE54COZTBVmsFdQeF8clDH01A9wjqi07-FMaoRylSYd41MxUcJ8DhQQLPW68Q__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163228490078883931/269195c6-619f-44c3-bd96-a67859a138a6.jpg?ex=653ecff3&is=652c5af3&hm=224cf3217d77330a33a98d1e3d465367bff5eb837cc123135ef4594cfb62718e&",
+        "message_id": "1163228490334740490",
+        "timestamp": "2023-10-15T21:34:43.836000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 8,
+      "row": {
+        "caption": "Manga art of a half-elf mage, with rounded ears, green eyes, long braided blonde hair, a long dark blue dress with white pants, a red choker, a leather backpack and sandals. She is performing upside-down breakdance headspins in a dungeon, while a group of cute walking mushrooms gather around. The style is succinct, dynamic and fun.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/8/image/image.jpg?Expires=1708398269&Signature=CULH0XQgz2ZYUnrI~Yr6f79vBwco18TfjTEBQqNCojpYBnczv2NJkQ6~YmDCujvJDb8xRmuG1DgjpsOly-f4yVESMH1YxgshIAxuu8tR5tOzP-sD7bYI6FFnIv8aZU1nW86ndmKhjvEvLgVPgm3ZDCy-0CwIiUFue7umW2MgPWZmuW6Jq9051bBO1ljoqx4xqYOZhdKCGWBEbiLvSnl6~2cROCI9btZOYoR4-sVm8edonXzsHDBaYRE573p3sOji6WYOWmYPsoBdwkN5OwPDppWXgAmnVixrSidHbtTkvOqwOXXoPilraQG2Z49Pch3pq5bfQg3PNgp0TBOoxNmyoQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163228340694556802/46-0.jpg?ex=653ecfd0&is=652c5ad0&hm=e362a511fa87c08e2c8c95ba68a82cdd5dcea303bed74217e16e591d9591920d&",
+        "message_id": "1163228341004939294",
+        "timestamp": "2023-10-15T21:34:08.233000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 9,
+      "row": {
+        "caption": "Anime drawing of a magical girl with soft features, pink schoolgirl outfit, and billowing pigtails. Her big eyes gleam with spirit, but her most striking feature is her gigantic, mechanical bionic arm with thick, block-like fingers, which overshadows her petite frame.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/9/image/image.jpg?Expires=1708398269&Signature=zWB4U5UM-~josTmbNnfazrZLEJi2OK0Pm87iepirYG9q4pNIZri4TQh5LFeqfuxMh5jxbaLAUvb7DZdjJA0Pj~rbd49my5MtDCFagaHqGpCVsZGtiV3cfCll3PC8Q40F-FC0eNsAYnVj3dgRO4IwT3BPMl8mHc5QEhdBHSyhr640NK1ZusqwVqborihAhshnGa6yPVNDY0ZkwTihaLobechmdgEXf5lqBTQnHVuwEl3MvetCvKz5Umg19UnMd5EUs9HU8A4q8Z8tig5XLEqBvUgNKKxLxK2~xsXdmiP416RjYf~tDM1fjzAwi3zq65g1sR3ruIEx5XNlAwjY8Ezb1g__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1746,
+          "width": 3056
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163228135022673951/Screenshot_2023-10-15_alle_23.24.15.png?ex=653ecf9f&is=652c5a9f&hm=b40067a13e08073aa0ad17ee8be537b15ab2dd8e3bac6475df863795e34cc529&",
+        "message_id": "1163228135400149103",
+        "timestamp": "2023-10-15T21:33:19.213000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 10,
+      "row": {
+        "caption": "In a serene and surreal tableau, an artist in all-white attire floats gracefully in a pool of milk. Their closed eyes and tranquil expression convey deep introspection as ripples radiate from their gentle movements, blurring the boundaries between reality and imagination.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/10/image/image.jpg?Expires=1708398269&Signature=okZbFj8aOtFLX45sjtnXzggGi1cpsJmmYOA-BA9cmkO6o6ZN-xANh5GLr4jCDODV5A-2S3poZon9JlfSLUrCnZ5WSUU7Ci3m086wOFm9zRPyut2Xx3f8d9JHeVeVWbUKlSg6SDA8cuEEp6ZZF0gb6HMi0D5amEht1IrXpaNuyUYiNh5g3PJQhHjPAh2fhGLyjbgqxGPCzfHTBLm5E3igisrcSMAKUTkN9Vc~vOZkdGc7zsBVAsNyINtPN2jHPuBCmLGkPbDmay1thryONEzIiK5Wzi99Bc66epwZ2wj0K0QvpfI5Nx8TzQSGfpvSB0KbMD7r4d9bhPdJzpyfGgPc8g__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163228047772766208/4887d3a3-d2c7-47d4-bb90-33d96433b08f.jpg?ex=653ecf8a&is=652c5a8a&hm=968922ba05c8c6ef8bc79af7a1fabb852f9a0873f370de135e7b35b00aecb438&",
+        "message_id": "1163228048640987269",
+        "timestamp": "2023-10-15T21:32:58.528000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 11,
+      "row": {
+        "caption": "In a serene and surreal tableau, an artist in all-white attire floats gracefully in a pool of milk. Their closed eyes and tranquil expression convey deep introspection as ripples radiate from their gentle movements, blurring the boundaries between reality and imagination.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/11/image/image.jpg?Expires=1708398269&Signature=ZXjC2beo1-UhZDOfT0pNciwSBnUxXaY3X0wPg0ItnyFADt5uShYJmPZDRznz9XyrCYnJGHLlvmZAI9~-0PU1doAneSC0MKVm~mlF6WEoOFYjH2Zo7iY-wYLIcipDYNZPbS9GDcE7L2Sx5NKFp~U15CTJw53EZs4U8Ci86UDF97ja2sN9sXubrd-ferPkUIS05Y0ZVO2aIMlYP37HyLLWfqMO3Dsb2D-FUbS5E7YA1QK3zFM2S79WXU46uWW~Zm6i7hTuR-mM835KoYPAgmkNXXzC3Myzyt~f0hknRNf7ShviWtpMMMF~U22f4dgekFFyoBxrIBQpglfUoYeteTp2TA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163228048099909632/b775e884-eb4e-4bf1-8e64-82716dd697f5.jpg?ex=653ecf8a&is=652c5a8a&hm=d227ba23dae3e52deff6c97ac1f74c5e3a07dd7a88f320e75a421482df5fcfb9&",
+        "message_id": "1163228048640987269",
+        "timestamp": "2023-10-15T21:32:58.528000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 12,
+      "row": {
+        "caption": "In a serene and surreal tableau, an artist in all-white attire floats gracefully in a pool of milk. Their closed eyes and tranquil expression convey deep introspection as ripples radiate from their gentle movements, blurring the boundaries between reality and imagination.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/12/image/image.jpg?Expires=1708398269&Signature=JV0XAETbdnvFbTqFULJdKMPYBUjLG2nCGiKOeWM8uZKOIeX5syHzoAqHQqDIF90hdjb5qj495Ss-D6KbrVGThh6tJrUVzSp31ZsbgjXM2i8jIQZzeabIkQ9PPEUk69Uxzf~vRMIhaVkLpNy3IJQzqAuu3NJhDcVhV7eMfRQs2AESMnW98~UUcE3LeHUlO-4TksQQKimHMxl9qRo5f~6pSvXUF42sa5VvLkmiLZknOe3l5IT6N1wXBtoYHNObp0KREnWZ94tlF57EtIFAP6DtlJSqqYnhWwweUiD75O2c4TIK-8RsiZg-OOzCFXMOLTFQCBq-QeHAyvTUr53x-wv3UA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163228048406102046/65236392-21e2-431d-a186-3c7b0751e5c8.jpg?ex=653ecf8a&is=652c5a8a&hm=3999809c7c495bc25a44c9a13f3887a5f68ecfbebaebeb764c56a258628708f8&",
+        "message_id": "1163228048640987269",
+        "timestamp": "2023-10-15T21:32:58.528000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 13,
+      "row": {
+        "caption": "Softly lit digital painting of a modern-day street. A child, with wonder in their eyes, extends a hand to touch the weathered hand of an elderly person. The age contrast signifies the circle of life and the eternal bond of humanity. In the backdrop, elements from our previous scenes: a glimpse of the ringworld in the sky, and distant skyscrapers echoing the Mega City aesthetics.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/13/image/image.jpg?Expires=1708398269&Signature=NcZUszD0MkvnJsG1OtNeB9wKiQSKUD8dBuOrvRfJ4Sm3IIXogaMHW8qNtA1h7JckGToV6l4VrSk2jMpHX6e5bEtUbQNS6OTKiNACjRgWiSnjxB41mCTlhGTaG7lEYp7bX6FYMAH907gR9D8Obhx7ujoTsl45LBqGxGndqR6Gp2WWwnRJdf99XLuhxNYMCGx1ba4r~u6nrgk-EBknFg2yom-A9yLTQjXSyHIBjbVPouoRo8xDcvtsBqzuM2sL40vKncDFZYFIBjcP-vgLeJ5Wz3YdHjyHf8J-3sZ8YUNkJu22CrUjzzkpl~dGrxgA6vMeHx4BHfd~pvK0O5A9HrBh0A__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1792
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163227879346290688/file-Wr9C47g4ztcu1uvXKVEpNM7u.png?ex=653ecf62&is=652c5a62&hm=878bb962f16ebb49d961a0c6cdd747bd4d99d350e3ba807b4f7444a486c577f0&",
+        "message_id": "1163227879602126849",
+        "timestamp": "2023-10-15T21:32:18.226000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 14,
+      "row": {
+        "caption": "At a comic convention, an inflatable unicorn carries an unusual cosplayer dressed as a chaotic mix of Darth Vader, Wonder Woman, and a robot. Nearby, a dancing group of Stormtroopers groove to a Star Wars remix, while a lifelike Cthulhu figure adds an eerie touch to the eclectic and surreal atmosphere.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/14/image/image.jpg?Expires=1708398269&Signature=dCk4M~YO0psSPo5mgma4LbC~YvoUISU~TL2HaojbW3q1lZRSN5B9fprmzEGpa4pORM6MZ~MFBGJZnTVRJ45eOSAHR5z-J9uhE-blI7FA3dkFGZpTLotFY4GNEjIVKUQlMsV0MqvQcWrok4FHSUShk5EVK2AnEUxr5qc2a6M2cL7PSuih2i4BSiiCz1UTqz4SV8RAl5iu-u1IY404mGB0lkDH8XEtQyBu4bPSxygOUDDjyCfndDdivTJe8olAtKfZ~3jWiUom4fZUStZlIx4XtINxEXO8ZzBiA0dlEGTWMWKXhJk5ggHn9CiBxINpQNrqAke6673gzS5b67ZFRUldKQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163226715263352893/036a89d9-ebdd-4d6e-ba90-c60cf4e95e49.jpg?ex=653ece4c&is=652c594c&hm=0ccd50826f49992934a6d5ee3801d676f075dbd3614fa3deadda0cdd3968159a&",
+        "message_id": "1163226716043493476",
+        "timestamp": "2023-10-15T21:27:40.812000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 15,
+      "row": {
+        "caption": "At a comic convention, an inflatable unicorn carries an unusual cosplayer dressed as a chaotic mix of Darth Vader, Wonder Woman, and a robot. Nearby, a dancing group of Stormtroopers groove to a Star Wars remix, while a lifelike Cthulhu figure adds an eerie touch to the eclectic and surreal atmosphere.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/15/image/image.jpg?Expires=1708398269&Signature=eKGqt7B-MM~X78I5qrYzxX72cfowa3MbJPZ7u35sq7uSbR3jOf4Z1SHYpetEa50ww0wAeLvM3--nIPcBSHqTtPtz4l91AGE1sBwvgo8g6DfQ8pqwGB4tryHAWLREEmq7tAR99kypUAbnd3yr12ijchPMJFlYPUcy787Td~KHScVUVBD9giCweo5CUEtaiWF8WTTM2R995Uvg4aeXdLD7Jj3a48Q180E0IGO3jkSmlWPO3mXCYGxUL4d6l5bY8OYlUkJrPwZip33zSHnBTRbAvJYYZdYpQmJk2RKRBS-QwMFSOBqVAiPbImHeCZLV8E4eR~dw5k4GEugFFPmXjXdfig__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163226715535966289/9a0335ed-3929-49a5-bd41-1799cd5b5e4b.jpg?ex=653ece4c&is=652c594c&hm=a62c955d281cc5747dcca865f1522a506cd614d74c6598b91b17cc359985bc19&",
+        "message_id": "1163226716043493476",
+        "timestamp": "2023-10-15T21:27:40.812000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 16,
+      "row": {
+        "caption": "At a comic convention, an inflatable unicorn carries an unusual cosplayer dressed as a chaotic mix of Darth Vader, Wonder Woman, and a robot. Nearby, a dancing group of Stormtroopers groove to a Star Wars remix, while a lifelike Cthulhu figure adds an eerie touch to the eclectic and surreal atmosphere.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/16/image/image.jpg?Expires=1708398269&Signature=YON-ENueM6TvWGCmjhZzfF1vAh956WaJ58yrjizU1tHSZn8WEqWroWg-93n-5L4ogq4ruNnXpEoFvsDBTPR8URwOUiEEHG2oUfj-Wk0PriS9ovGg4lRNo0AyktOEiAnEUE0DDaS6cufmL9J6oD7E9yK8zi9Lf7n487sA7w0XTYWHS97XeyRwvcX6ycWswAIH6KMfsPZOhESjSZgxGptSM9qJ0Mjyl7m8QpHfNhTqtfqwB~0RjtTypbhPt2jmXblpFk2KtLmMKnxNj3CuZHqH~RtseYyzGdBLFM7ysHNZwaxGnIQXY4BGPHXUP5Hde37NQPjFbvNt8oA9aCZrdtjpbQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163226715825385573/0ee3d084-d1f3-402a-8bb4-e1b7fa6904cc.jpg?ex=653ece4c&is=652c594c&hm=2e7dec2c291ce325fb78686a58d99465de5209f3673e242a1ca2744a0aa5a882&",
+        "message_id": "1163226716043493476",
+        "timestamp": "2023-10-15T21:27:40.812000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 17,
+      "row": {
+        "caption": "In the midst of a vibrant spring break party, a college student found themselves amid a sea of revelers as they were dressed in an anthropomorphic animal outfit. As the festivities reached a fever pitch, the student's growing sense of isolation and regret over wearing their costume them to a breaking point, leading to an emotional breakdown amidst the partygoers.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/17/image/image.jpg?Expires=1708398269&Signature=jMSz3Y2Q8jNGeRARvMUb4FMYhgvs3xXAg9shGkGTnBCaZ9kTfl79nX9aBbePgMGSFIClsZ7OkigyAeGirEndVyMpipRm-9IoA4RZjUEzRJGMO7FgVtyvnHS853NJttNs6Pw93yHc8cqBrgcK5TJ1U6nPN95cuY8jSeEsgw8WdNrN4fptbKXK6Xg2D1i3dKCSH35Hr5XrKSziSzaao6n7-ZXBW~V2ansHEaQCBWOWMJtjXO3Wz47X4ysjMrJRtDH0Z6xUdcErvUMEcHEq9ttERRbm93onDIphm-v9~GQ6jA5Xu~PSR9-xWBSC1tfIFCdc6VtlVbjLzJt11bGQy4bTxA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163226138546544761/0e8e8340-f933-4340-ac6f-2ace5c779f29.jpg?ex=653ecdc3&is=652c58c3&hm=a0bac3464dae714f9279a58c568317e0ea8dddb811ba3d1cfd2240d7276a80ae&",
+        "message_id": "1163226139356045382",
+        "timestamp": "2023-10-15T21:25:23.319000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 18,
+      "row": {
+        "caption": "In the midst of a vibrant spring break party, a college student found themselves amid a sea of revelers as they were dressed in an anthropomorphic animal outfit. As the festivities reached a fever pitch, the student's growing sense of isolation and regret over wearing their costume them to a breaking point, leading to an emotional breakdown amidst the partygoers.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/18/image/image.jpg?Expires=1708398269&Signature=wxvjGNphA-LdspD-t2zto5Y0HqelFqXGQWBoQ~D~oYEfsix2S8xsAotElBpsrM-Mq02zil9kWM5J-4Oz5lH2NRws~XCXsjJjQILOT3U5ibQhozGkB2sZwKmiq26SWgbsgZNHFgY11p9pmmTcV6sDidZo7BneOFbb9shYdic3bssdeb4gkPOMezzlHCBDttyHmBq0BfOlQI3xw2tN2Wv8D-1VavJc5DdWVjE5qBI5jR50xYqHmLxIHSe4Xm1P6MpBHqHzl477bJ0dzgvatDQj6my6JmKYALmm-HOdqIaTCILPnBGbMGoR5lUt5umdGiLrQoCjqP4s2Hv54Md251mk4g__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163226138823376896/7f07cf12-178f-4c9e-b2c2-0b4d7e870f9a.jpg?ex=653ecdc3&is=652c58c3&hm=ce2be01f29f875977cf830ce15a9b4fb28537a10b7e40fd4bea093d74d54f3b9&",
+        "message_id": "1163226139356045382",
+        "timestamp": "2023-10-15T21:25:23.319000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 19,
+      "row": {
+        "caption": "In the midst of a vibrant spring break party, a college student found themselves amid a sea of revelers as they were dressed in an anthropomorphic animal outfit. As the festivities reached a fever pitch, the student's growing sense of isolation and regret over wearing their costume them to a breaking point, leading to an emotional breakdown amidst the partygoers.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/19/image/image.jpg?Expires=1708398269&Signature=S5PFsvttKfOYjmNw9ce262zuWgN0yqvZAHa-HiAlhb9f117raxfiG~MktcmE~UnQUvDCyTQ6xgxzBJ~0vTF2Lsk9oqLCu1W8SMBo1lzKT-uluV9ZOIejxr0dp-2KJ7Lh8PgpGn~ve8fKcMynf-Paq~geP22no0m-RSQMbXWY7BLChmo0R0VPv47MPxi765abwb7Lqn~vuqP3KA59RMn4dZLaneBQyKWUBbaa5cOtqmMXvxbWXEJts15zYzlkjWi-4lYMdf1gej0fQpKqMjI2TcnHrlL81h8W7m-bKpBLKrk8Th-0msUc~FuZKcH-sNdHyw~7eKYBTe2dhPa1S5LbTA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163226139100205187/5fdf0c02-fa45-4378-a98b-2dc040a2e91f.jpg?ex=653ecdc3&is=652c58c3&hm=8edc02a2acd35bd244fc5d23c9ec850328e92798a7aac4424829c7e3a34208fb&",
+        "message_id": "1163226139356045382",
+        "timestamp": "2023-10-15T21:25:23.319000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 20,
+      "row": {
+        "caption": "A curious, fluffy, and cute bengal cat, fisheye lens",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/20/image/image.jpg?Expires=1708398269&Signature=pBOe~i1xeA0tphDCwsTKcA851lXCF5DoQsaJklyY~qhWKIonFeG3St1CEZqpd4roxoDW-p9roHgwTup1D11E1Gh2JGH7up~WObc3HNTmAaYFb-GTs3wz8nrLBuFFxJQW55sRwPBq~atwjZR45e32GXUrLA7J2y~ejfqBfqN~-hHwaBd-8AH8t~gwTZA8dIJFtsUBDXA2iGQBYGevsrRwP~ZbgbSt9dVo78tUKKpOlmbxuwisfqFcwE-frV~w4xT0ofZ0tUkUh1JK2yRyFMROkEmV1BdBdx4tn52CmpqvAbm0idZayYtpMjz-LpXWgdI18pnX7KmzM4SyNIxXfCQC2w__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163223184393384069/0764d4ec-c6f7-45ee-87e2-063738bce7b6.jpg?ex=653ecb02&is=652c5602&hm=85bfaa1ef8e96ec39939bd33ff1947f44d77ab547f630a13bf3630f3e7549d51&",
+        "message_id": "1163223185718784103",
+        "timestamp": "2023-10-15T21:13:39.117000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 21,
+      "row": {
+        "caption": "A curious, fluffy, and cute bengal cat, fisheye lens",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/21/image/image.jpg?Expires=1708398269&Signature=a4UtrMZWD2VETRUg5HyJLsJ21gpZ8sy-a8vx897yvfZwCom7RpIIaYhS0q~Z3eAY2hF7BC6UibgyXrwconbMUhdLQ7aOlso91nxJgjrjIUkDj3EfZQjfkmtSZ1vy2PrHIZ98HNeSQF~MoMwCXc7wvzQRFD8deTx6cQJlhaZvagFYrTDvh4Nhy9QsVOW09BCjukEcEWtHuWanLhmGKmtbhu~NcT0OUB9bezgq3J4Z66DyHiPDFrJlaz-1CYAxb7Jb-qfZKEev1OceweSVGAmaSZnUavA1Jgoz~RTa0Up1DOJbcp4xlI7VWpA-jMvDUvtruAidvQFBPgWamdm7BjlxUQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163223184670195802/86dd6efd-9fb4-4774-ac61-db6f2325f6b8.jpg?ex=653ecb02&is=652c5602&hm=198e937eb7733bf0f7b4de1e0e8d189c98695e1f55e8d6e91ee2ed94a618aaa0&",
+        "message_id": "1163223185718784103",
+        "timestamp": "2023-10-15T21:13:39.117000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 22,
+      "row": {
+        "caption": "A curious, fluffy, and cute bengal cat, fisheye lens",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/22/image/image.jpg?Expires=1708398269&Signature=ifoOez9qMX2jVNPtJiqOwU5PyHtbely2uxv8Z-ENQkfPo1~GIRaLT2D~QP-bymCV~UE-HB982HyvkhSMQLF5IxjqT8NTGRSSyC9ORWxI0~hGQBULrbfb67lH2UkUBTNP8U8XmyNURkC2qR6zKZN~12JIFzuzHSqtKf09bmnc5CC0w9ChfG-y8lAdg2UCPCXMZVKpAX4T5QOhczRt1bcETtlQ8j5Fh6razDn2DGK822n0FZo1JXrWUgWXlQH7fd2xpx2nBq6BDS5ar-qR7vij5-MPTELvmXj5BOkGG21C8gJlm8~CIZeTsM1lsmTyDfAfhBej2f~fPlnfBajYQFF2Tg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163223184997359716/e6ffeb29-0328-464e-a557-6abe28b98258.jpg?ex=653ecb02&is=652c5602&hm=cadfc5fcc806e8e5b7bfddcec2fe688009083b9582e8116458050ef7ccc8d8e6&",
+        "message_id": "1163223185718784103",
+        "timestamp": "2023-10-15T21:13:39.117000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 23,
+      "row": {
+        "caption": "Amidst a lively gathering of people donned in elaborate animal-themed attire, a covert operative struggled to keep his cover intact. The surreal and whimsical atmosphere eventually drove him to the brink of insanity, causing him to discard his disguise and unravel before the perplexed onlookers.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/23/image/image.jpg?Expires=1708398269&Signature=goCv7TKg0ZYGEOmZji72TJ1rQKrpoF297BBWcad5mT5VSzSMheHw1qU46t8L705hfa70Y7iLZnAdzSuIF4Kw3eHeFns7utPz4hLiGUgiIXJsbaPSfD27Hk7u3KAb1mQV1fMhx2TJN1HRvUpEFkdZNYmZqLe8LxbPyC4OIIgcWmR1Uc6Fvmh2wCEXc0U~s0k4LeFPVXg3zBQJgo-yA0UyXlCXcI9pkpNhBUbQmA98WThisHiwaQ1vdkwvQNWyMIug1nIbO5O7559SVBYd2SujI50gBrYS9QKvXo1dv1TaAFeHUUdMs9l-XzJUg6t3DcQrr2YLeum9GPR17785k9yO9g__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163221925171056740/a351cbe3-7e8d-4f55-8e79-fda4fa63eab7.jpg?ex=653ec9d6&is=652c54d6&hm=fc48673e882b4dbe5c606e71899f95562d77c12eb00a8640d53be3b6c14ca2a3&",
+        "message_id": "1163221925686943904",
+        "timestamp": "2023-10-15T21:08:38.702000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 24,
+      "row": {
+        "caption": "Amidst a lively gathering of people donned in elaborate animal-themed attire, a covert operative struggled to keep his cover intact. The surreal and whimsical atmosphere eventually drove him to the brink of insanity, causing him to discard his disguise and unravel before the perplexed onlookers.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/24/image/image.jpg?Expires=1708398270&Signature=ftnzdRqc1-SHUSoJ53b-KOPVSNhL1Kbw2VSZS9hZxqHHQuDfMa28pTGuHyGu4OM8ux3mCT6mpDEuq4E6elL6xDquhCfp6S2HA37JM8SwFxlzLZqE~~TeQbIf-RXxVMJo9Ap9mbbblq2NN~Hq2cIiG62yaPmctMyS0h4FRV1MBJB8PtEVcJUiaiPRo6PyK542r4FYXFbL6755~pAHt15EzAa9q9x~IGdCivwZOZpTxXVEKWUYkwdsu8vDuKmYn8mJ50-ts1EJCC3YLwWtYOPEqR2VAd1laQAk1zSyKxQFwygE99CjDsucb8DU3NWCnn4zDgAulgPZi4ffgu7r64s6bA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163221925452058686/9eecbd77-b74e-4856-b078-2380a20ee946.jpg?ex=653ec9d6&is=652c54d6&hm=ed656edf60e8b1e7f382653b7dc8cbb18a4e081e59d05f79830725f64dc03728&",
+        "message_id": "1163221925686943904",
+        "timestamp": "2023-10-15T21:08:38.702000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 25,
+      "row": {
+        "caption": "LSU Tigers women's gymnastics team wearing their purple uniforms",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/25/image/image.jpg?Expires=1708398270&Signature=WjscWEkmRcVUGv4R59mhXddsal5d274E0YtJL4K~8KObEbhVn-EnbVSKANUUmwV4643pkFPZd1iqZ~cSk-ZGVHC1-hxcbp94mfOHnK0zQMDCHTE~vZF~DgjnUg3TrLD53WE3DXIaDWAcdVQDhAYwFCillyECWG-e39O6prW94wvL-~ceBlpwd~0E4deZG8og1j4wTLMReKDlzz0Q~ZjLLnvcmhMEVNOeAwBU4W8gOonLNV8hT4actuhoX-6FpPEwZ0JmLDPAY4M3eMoX8mRZ~ySF1JzTqCuqa4C1j-cAxpDh8ooyXKp64eDrNP91LdTQrMsG4LsfJS~Fr57O0Z8rvA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163221526594732033/5e814fcd-c281-433b-b68e-5f5974ed898f.jpg?ex=653ec977&is=652c5477&hm=f282660c7861d9d84bb31c2ad1e8e940cfd61c421859b3991c8879b6fb52d8aa&",
+        "message_id": "1163221528595398730",
+        "timestamp": "2023-10-15T21:07:04.028000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 26,
+      "row": {
+        "caption": "LSU Tigers women's gymnastics team wearing their purple uniforms",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/26/image/image.jpg?Expires=1708398270&Signature=DYhnDcKhGItRstENt7Mfzt3ddRAiPIJ1L~8NrauszfjakGTKwypyJY6YosP3j1~NGwK7tcgKhZxbF7TXS3OQGUQ559cBm1-0dTkLRFmRQrLf2gC3KbCEh0EfCZri~IJd-hl2ERaLElW4iGQObIanM-j8snl9QkdjAfY~wE2PviJJePmRneWkHBqCiZjfJjz0dn8LAzdE4nlmuD2t1-eVPcpgKRrADiek2saghPtukEt7myhvaWKd0EfC2aW1Yl6vgiUNGsEWaXQvM-FX-DlHg4NRQGQZKhJw1~~hW3~vThxdWMsdpD~oky5nG6zRc7kc~Zdw5F7Y-6YNM0xrQoqqhg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163221526976397382/c041e168-b862-4cd5-82f5-ecbfb5df1fc3.jpg?ex=653ec977&is=652c5477&hm=addefdb0ba9d49bbf09a83040765fbfa6f24dab1378b9580f1c63a40e22015f7&",
+        "message_id": "1163221528595398730",
+        "timestamp": "2023-10-15T21:07:04.028000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 27,
+      "row": {
+        "caption": "LSU Tigers women's gymnastics team wearing their purple uniforms",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/27/image/image.jpg?Expires=1708398270&Signature=yRIiUP9Vqci8WUrutlp8ljbAQqcl5-3wkx2yZz3Lh5h3eaJOx9Twrbx5n2FLG3wuBGD-wt~YFx31iAKATlKCYDgVsIveIwAQSyaeyIak3VBfbeZwBwMosqgsQZmQXFVFt6EOygoUgUAiWjWpNPxVwuhW4~DV42uF946rqoKX7wNepAwIGAY8J4ELbhGa1CU2JqwW0tOqRxzkCStv2f4uk0kWfHPfBLBzIFdo3~jzWh~RoguSUXKfI9cySYITdhSdV8YO5q0xj~R3qNS~cT1FmCOnR6hMP8ka1ClJK2WBwbRoJ8i-gkA~PZ-~djbjyvTFzjOQKmPUhzuRy23Is2Qcvw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163221527576199208/bcd65910-672f-4742-a69f-60361f0b23f1.jpg?ex=653ec977&is=652c5477&hm=7a9fb27a5b20a969dcced01bf1d16c01a6ae550ef2405fcad22a5c06a2233827&",
+        "message_id": "1163221528595398730",
+        "timestamp": "2023-10-15T21:07:04.028000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 28,
+      "row": {
+        "caption": "LSU Tigers women's gymnastics team wearing their purple uniforms",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/28/image/image.jpg?Expires=1708398270&Signature=cwkpTfZeOj48T7alws-rjlgq~JJBR7DjjYuybkhY7lWWFARDdX5qb4Vx6RDVZoPS1dVMhzQVya9qaTaM6aUgpbFgk2bnQFUlksxMNadCGBbV11Ef7WUnadbJIkNV-zA1Q~0lriFvLEofj3sQtk1FzK6JQA7dUKqwydIuDpoHMqltYtVWS-APt6SgZkZ6no0DkzgGIbpCw4yg-3iJaT~gCOQqXdu1sEfKLcR8f94gfEWKOZeKUMq8K0ORZCFcBpSKycTgGsMciL9DfXLFsA03GsGRAgFuzKlqGwmzqsCFI4~qahJ23GHsrYQC3WQgJ0dF9byih4yovQ4X2L-68tH7sQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163221528305995877/88a42954-9f2c-4dd3-b29e-f9142be3a189.jpg?ex=653ec977&is=652c5477&hm=e5237c043376c3bf0aff0b0252935fe11a287a684ce2a9db7a8de1444f2ce476&",
+        "message_id": "1163221528595398730",
+        "timestamp": "2023-10-15T21:07:04.028000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 29,
+      "row": {
+        "caption": "A photo capturing the hands of an elderly woman and a young  boy touching fingertips, symbolizing the bridging of generations. The atmosphere is gentle with soft lighting, emphasizing the power of human connection and love.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/29/image/image.jpg?Expires=1708398270&Signature=ESXTxbxE6JsIqDNr-knc0CUoP3GouxRglcbXLZO3mK~IDDEhwk-WuLAKZlpSL942WrEWKngxIXZb6Dz0oonOESq4jhUfJevJWybnrlLzYzA~951tYXvCXySukm9rookuqUOek29OF5W388FZYlV1d0ljVeBpxU928OMLs1kFKYZrP61fCfOcjGPa8xq~PJN5l9TQt-TDk6nGfAevJkAgIq0-FupPrDvN2BiEYJAYqp6oQ~uAaLH8b~6c-zEyqE6MpVZPlrhR9nntpa8wT2q5WZJfa0Rvqwl83MV-vkZpf6wDQNAx4RGXcFuQJ4-IMefc1j9u-2m7i6Cob32QJt6SGA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163220518867046551/file-3mOHLEYyOeD3I5RjHA2vt3aq.png?ex=653ec887&is=652c5387&hm=8b7cf8fa23ca1d6c0a9b800ecdedd1b21ded6fbdf2087f0362c6ffd0859021cf&",
+        "message_id": "1163220519416504412",
+        "timestamp": "2023-10-15T21:03:03.421000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 30,
+      "row": {
+        "caption": "A realistic photo capturing a heartwarming moment of two hands gently holding a small, adorable hamster. The scene beautifully conveys the bond between and care between human and animal.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/30/image/image.jpg?Expires=1708398270&Signature=oydCu0H7N7A8HEKbnTUNzvjOyGhKg6aCXkE2lLhHQ~3Qbcd2VbeSZxCjEQSvCUjSkrAo8V6-b2PO34QChqsLrGkYfUyTE1fm5u-1qJ7teORxkaA~KHFtya0vUssgO4QII2MItFoNKGLteODnT8ara4X61li5vWok8-FswQgEdpiBU0Co7wJx91QEZuyEM60AOk06z9FZkIl5z~vpAhxpJweUaH8m18~odH1O3AMfoozGkV3R3Usg75sXJ1tAfVwsVoOkGja~2Dz2bSwMbhTYbUaFjQ34yeED~0WPsMybmk7yNWuB~dCVgYWDXYCRGAfMcf5OPE2ojugsbvPR5-SSmw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1792
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163220404710678669/file-8KuNijUOjByCJmawWmlwa55e.jpg?ex=653ec86c&is=652c536c&hm=1051d9f86f91f943a97c936d2833c77cb6642f58b29b2af8609b63e9ea30a335&",
+        "message_id": "1163220404899434606",
+        "timestamp": "2023-10-15T21:02:36.118000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 31,
+      "row": {
+        "caption": "LSU Tigers women's gymnastics team",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/31/image/image.jpg?Expires=1708398270&Signature=b~Y~tI~K9hARMwkqNwJvdcsOIC-ZeZE5ppJBplD7fN3vCmXEJ~D~NZO6EUDXdQY0srTg5TuJrP0O0ieh4BkW0G7CU2adX17AGkE79OIsCy5MjEZ2zf5axvH3a6Sa6s~ioS7m4-k1C2FqJLIaiTv3oJ9UWGRTEVlZDtqfFGAxcZJZlwih3CzgHrdQE-PYeUwfFgEx43J8XWorfUpXToh2~qQcUjmjTEtKwzlDQhrl1HmKx2bTCuwEBB-XIEBdlwocfaSRZsbV3cZhqtYkvTTo0IvhEs4V1MzsluuWKR0oMdTBrjIPoK9Vmpwba~zgB1ufZ9Xo5VoYW7tlawTHoz233A__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163220362419507250/96b9221a-b67f-486e-aae8-5514873af8d1.jpg?ex=653ec861&is=652c5361&hm=2eea61f425eeffc629c8383d14228a0708d2b831d0cb4dcf2362a0a55bd8bf15&",
+        "message_id": "1163220362876682365",
+        "timestamp": "2023-10-15T21:02:26.099000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 32,
+      "row": {
+        "caption": "LSU Tigers women's gymnastics team",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/32/image/image.jpg?Expires=1708398270&Signature=dicssS-aYmKfYKrgF7BkyPDHECVm0OjkJEy1uFr3~wZ0mR8lJeoBt~KdPYtmq0h3c7qjmVjo86X8ej~lvbl8O98IwdrQP~gZ0zlSTC0u6imet5mIPiQId8q2LWQP2qB~kP0G0YfSGKApgr3KRcc1HqGZaeAB1EXWHxhqyyP38cxLZ5MInhKHAFQJbwLmoZSF6Ne0gCWiAbCRS4TFhY2HnXrAiKZIIeqQMLHzuW4lrHK3IfZAde08zdaWAqfh7YO4EMGqJCQTT7AZ9toktzmXumroDK4hF9KBbMxlARaHTtcAG8wX0jmSOfIDDDmUjqxFeWSoI2K5AER7CaS2akzG-Q__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163220362704728156/688df7a4-879b-46cf-a54b-08f308cc2b05.jpg?ex=653ec862&is=652c5362&hm=22658977a66bd2bced1d0e4b1703ea1bc0d14043654ac562f73af1c77ec34280&",
+        "message_id": "1163220362876682365",
+        "timestamp": "2023-10-15T21:02:26.099000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 33,
+      "row": {
+        "caption": "Closeup artistic portrayal on gold paper: An Elven fairy with shimmering wings locks eyes with a gemstone dragonfly. The connection between them is palpable, with genga sketches capturing every intricate detail of the dragonfly's wings and the fairy's enchanting gaze. The golden background enhances the magical aura of the scene.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/33/image/image.jpg?Expires=1708398270&Signature=PqQHbz4rzQv8Fd6SLE4oC~Tce5C5-bMhvtanFcDtNi41oDyTDFGDMhOCpPRKgQJAcUGoxFWkTg0Pmv1j~7JL3fUfnyZ3FjZtN6YKvSuvACbAzvtJOKJgE5~0QJ0ZFRlp5e~BeeV9SSPHmlP-uA02TSHZ1wsLMhwbZ6GaAPISw2PnkgfRpBfwK~rYRW8sPBVADNTykmPHql4VIokS1i1nU71haQjxFC31SyHNjosI-J9qlF2zqC-4R7n9JImrd5PWnNMDanxR0Nes1y~cxhPXnrb0dduSf-1eCvitPhB1XCDC-ZZZi7NBzfzUTZU9paJt5xCfHIDA7PkTwJCaXOOfwg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163220326126190592/file-zuZlGtah8ZxWOxOysCbkzNF9.png?ex=653ec859&is=652c5359&hm=9b20548409e4741a0205d5787b6690de9befa7fa5c2266b9b9f61d294545a421&",
+        "message_id": "1163220326474326037",
+        "timestamp": "2023-10-15T21:02:17.420000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 34,
+      "row": {
+        "caption": "LSU Tigers gymnastics photoshoot, men's team",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/34/image/image.jpg?Expires=1708398270&Signature=G8FCQVnd0m-pKqqMCrWHEiKJ277hMhoBhQcvu-UoP4K0nrqINZoZ2f7DlpXJxOMKZMirZ9I7AYRNghUidGOAaO3OKrapCha8diAYSqvkJzQ17TuRK79Yz2fCkFhu3nF6zOWZF--Z2vEhq5OzGSYAwpasfTwe4R~iYBvi--wY9clAeay11nq-u6O3D2Dcfnt7NAJgqm0Zxzs5BtDRvAHHK99Gu6llgJ6QpS5TCVJHfzrQpIw9kaIcdDjR7hRGShDl1EjTM8g90xE3le6OUmu4UWVObLW6TGxpCBuNOM68SP7-5zR103RHqGOZ4h3CjjPsIyYEq2poaNB7fK1koAbaUA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163219429023305738/34ba8631-f32b-4abd-a4c4-ab2844c0cf88.jpg?ex=653ec783&is=652c5283&hm=a8ec4967a0bcd3340c73deb1eef6d97c9c73a63122dcb472b6373b9c92151946&",
+        "message_id": "1163219429274947635",
+        "timestamp": "2023-10-15T20:58:43.511000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 35,
+      "row": {
+        "caption": "Wide photo capturing a scene reminiscent of a movie, where a robot, with a face expressing a profound longing for connection, faces the viewer. Its mechanical hand is delicately held by its creator, highlighting their bond. The ambiance is enhanced by a soft cinematic luminescence.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/35/image/image.jpg?Expires=1708398270&Signature=yD~nH5kXxQEO7HjqGY04aJevl3ECf94tW8PY8tWs3HMh9fvZB1ObUqt1MatptEy~RwIFWD4QS0wPWPJp5IwwByc6ZEfl4IftbljwSy~ZM0MoR7BH4kaYMwxa3166L3GR3glfAiHInK12kfKHv8m~bcooF5gmfToDtQpiEAKCcPEENw0fV1Zd05dVK6zEIIDqRpwpOuDKvGcnPK~Bf6FqyNyTed5LUL-0yd2EKjlxA9Vqnv2Yjm8OdB94Qj8-PffCgjxHiaixdFOfUxZddUQAkyn05e3QbgmeHlpBqvVWM6hI9EL~c5EL0E9RD8SX1OrmTNuDau2FYTOVBC3yyHO5bw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1792
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163216952630710372/file-pyTgl91YI9NJGVOsE47FJA6I.png?ex=653ec535&is=652c5035&hm=3b54bd2f0cfac253c403bdf165db1b3d7da177aa6e0e5a437c52eb1e16edb37b&",
+        "message_id": "1163216952945279146",
+        "timestamp": "2023-10-15T20:48:53.108000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 36,
+      "row": {
+        "caption": "Artistic rendering of a hand sculpted from luminous amber. Within the amber, flowers with intricate details and vivid hues are embedded, symbolizing a harmonious blend of organic beauty.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/36/image/image.jpg?Expires=1708398270&Signature=ubgg4SrpzFHSbCOjNAnB1AGOv9gL7sNSsvqoDF-OLnRJGuKZe4Hu1QaQyJ-CDNiHChej-AJF9pr51HpbWHeVHr~ckcQbNCa2n8TjA0YNfXzfF0jF8W0AS84cz0msbWMcRGDwGeBwyQe5N9l1RHLhR8uyaarTZjbrOAma7ZKCXwTe5txH0RFMuV65ZBxFmby3M1GAx7x80lEILJD3T4oXqpOq6A~JnZXcCuvHdqYSloN1nJCBBGCK2zR3r7EP~SJnK9BkeO7CgDxPR5SthdWiw3Q92hh~ZZbi6RpH8D5UJxL7LNdpW4FKD~Jm7so2w65NfILcacVCIZLUFDuLm-io8A__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163216713819623566/file-mrWHoG72QS6ZGeQCy1Jhbti8.jpg?ex=653ec4fc&is=652c4ffc&hm=e40b9566aa9df3e553b0c4cca868db4d21fbc30eb2bbde0ed6448a8360e621e0&",
+        "message_id": "1163216714041917440",
+        "timestamp": "2023-10-15T20:47:56.149000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 37,
+      "row": {
+        "caption": "Blending Harlem Renaissance with Art Deco aesthetics, an oil painting showcases a young 8-year-old African American girl from the rural South of the 1920s, with her long braided hair. The sun is directly overhead, and she stretches her arms upwards to reach it. Her hands, symbolizing hope and ambition, are the central focus of the painting, deserving a close up and detailed view, while a picturesque lake provides a tranquil setting in the background.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/37/image/image.jpg?Expires=1708398270&Signature=LZE4lM4~ubivWyY03ijROWtwHVVX2btjeuZweIJK~xsxJeiM5wO~PUS8V2Ke2LNF8b6zBBfhGPRbx17SrAmH6dFZVlqrKYY-uAoLaZ4VrTCoaMCE-eVlGR0E0qiilKI9w3Q3Xw~I9izvW4gA0KvsIYDa3kN9atko0~jQyTT4YAOdcatu-YrGMukmcnZuKzDt-UiedGTiEApNHrjdHJ30R64s4OFzitunPhEpmZLxlA9r5BCiGcO3ZPLTp2ZK3wKFFevvw4lOeDXYZihtqaR349paTVTbrbyAqz7rFjNdBmViUX9wPRt2INSta5IhH8K1vemg1gJuA0YsoYu6~Pt5OQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163216098246795407/91fc71e8-f378-4dea-8a8c-6531345779c1.jpg?ex=653ec469&is=652c4f69&hm=7f226fb26791afbec9bce7be9151966c3959f3c780a2c5696fae48eac0924520&",
+        "message_id": "1163216098473300110",
+        "timestamp": "2023-10-15T20:45:29.386000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 38,
+      "row": {
+        "caption": "In an airy studio, clay sculpted potter’s hands, resembling realistic clay sculptures themselves, are the primary artisans. These hands delicately mold a bird, also made of clay, capturing the essence of meta-artistry. The soft morning light illuminates the scene, highlighting the clay texture and the creative aura of the studio. The tableau, a harmonious blend of reality and imagination, embodies a narrative of creation crafting creation, surrounded by an atmosphere of whimsical serenity.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/38/image/image.jpg?Expires=1708398270&Signature=Osl6~E1RPxdCCoiSmhnKrr~t3b9bopmPabu2xsJSJSi62YZVhkkdCt0OV61PaLieXTnOXhMkqoPnFFhR9~b6HFtjE1rDTmGfLc-ga6My8ps4LI0jnHr3kecpqVC6JOe7z8J~-1CGM3-iZSNDTmBbRTXhAKrOCSwBAr~di8kN~SDIo724gskZ4rAoMeoe1Bb1FTDjUVdRckKTNUYSjriFHUwpSv2bwxCkykyM9TUa-EAyTVtixat7H3Y2W4hqEz3YeUAyJdTuY2muZO5l9vdBtTI5Jgh5yQxKC9UT8h855KxnVW8mgQo0hdXxsakDUeokgCBWx8g7EjUZgcHRwhznfA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163216025727287407/IMG_8563.webp?ex=653ec458&is=652c4f58&hm=b8363248f47098ed77c303426136c65396574802ec54e00f3a4eba76acca57b8&",
+        "message_id": "1163216026138312756",
+        "timestamp": "2023-10-15T20:45:12.140000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 39,
+      "row": {
+        "caption": "⁂",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/39/image/image.jpg?Expires=1708398270&Signature=wJonVFIqXQs53vbsj1jgKAWqWUGY1QiSdH7nlfgsQZ-RB8rehw-lVIMVRHcCTIxFxYHD-tM7O5zfRWMMFwES1aJrea2d5vcaCX0Wmo78Bpm5hh21wtVck9cYav0QQhCuVByv0x53C5hyLqQjP70vOxwmITgKO6QyS0yjz9YLI8TPq6FyGvUB7HI~--NHeCb~-WtuITpC7JhFa9yg3NkKX~dvByBaUaNGQFzjkNisoO4YovPT-pocAkLVp8PaOhA8sOz1fMs1ByBgwq2pQ6e1t~~fHYfQR6UhDGUzkcKzy8jeTpN9aSIKq0-KsGIsMb53pjMegkgfZ3UZbpdVqY-6rA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163200358894534779/bc561be7-c5d1-46b4-a378-1d4cc267e241.jpg?ex=653eb5c0&is=652c40c0&hm=944fa9dfefb23cd46dfe3b41f552b95546838cb102c384b67699a7e702dad97a&",
+        "message_id": "1163200360056377384",
+        "timestamp": "2023-10-15T19:42:57.055000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 40,
+      "row": {
+        "caption": "⁂",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/40/image/image.jpg?Expires=1708398270&Signature=bllb1OTj8SgdWHEtWY6LzlhAo1VjMGUrY~fEnVaJDuVyuHiuWTCueIUzLoAiXwQrXcugL5NLSlSar1ZaasdzkUm7~FrCOPlvGLJ4llETkhkQLH31uDlaD0hW9~H0X2TPhKn7~xcIAP5H32~KCqUV8-BkAmPjvjdlkinyFTYZ6UzxphtyNcXfwXS0lkm6jXQZ8ppc0vmlqJev2cvNcxgiR0Xh2aqJOAdlcz6aSZzjxHfhVXM7Qh-GMYLPFd08OPzU3oF9NjXi9hkSfPNJW9QHiyUmjME~5gX1SE1-FNdV2oFTsYeaiXEaytZvKVlT2fU6Ei8~HrpQi9-Pbqa1KSgehw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163200359246876702/ea58724a-bd63-475e-a10f-8171da327112.jpg?ex=653eb5c0&is=652c40c0&hm=7e5c50046f64c5037037b9cb87d59970740e22ca8ee70b22aab3a06b88f91414&",
+        "message_id": "1163200360056377384",
+        "timestamp": "2023-10-15T19:42:57.055000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 41,
+      "row": {
+        "caption": "⁂",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/41/image/image.jpg?Expires=1708398270&Signature=meqlO~h6lrwI4fwEOB-Bn~I6wOVoxHpykbLa0KAVz5TkMS9I3VL-KNM2knejYeBOrO7wRSXrJmN~ezR0Cu9ppZCi14TJ8DBOfOnwr1mfCyR5qL~XVAclZ2KeauxpZWSTtJzu~m1oXvYh7U07W8yS8OcQwqTXAjg3eCDKbvoVKcLIrayn29Lo9WBf1UepZbYbCffxjUot59UqhBmo8WnzA1y595gp7hr~k5ZyNDfcd3UwZQ89dQaQhtveXtp7rYAM0WKUmRegzFqD944WZnVbm~WNAG60BGci1NUpVUyVqKxR9YFCSOUX8DttKwLS7LgadkbZv58MSd31S-GZYa2BIw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163200359527878696/1cfedce2-f1d8-4feb-929b-d08c0b8cdf0c.jpg?ex=653eb5c0&is=652c40c0&hm=60d609eda051985220fefbf4acb901d971f33abeb70a368567846d43b4d90993&",
+        "message_id": "1163200360056377384",
+        "timestamp": "2023-10-15T19:42:57.055000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 42,
+      "row": {
+        "caption": "⁂",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/42/image/image.jpg?Expires=1708398270&Signature=SepQ9~kPPKqCTcFy3pKX694QAVY6t9YemZkRNoNS9Ti2ZMptuY40gb7biu9-KgMEm3-vIqWLICllKaikBv3GxS3YbuFtugRSS2KMx54lWZCu-70QvvXS6MxUlc6vW7VZ74qy72Z4CIO38flPnltxCj~JAXcg~3I07iUFSwkdLK2ptITFFt1BvOjfBjfCFl7YGNoUt5kOhqXtu9kqFjKpptHrjPeSGMBsVqYnmP8FvsRgM9s73OzDzYJdc4z6eYoObAu~DGc9Em0d1rMsP0Q1ep2LyYduEKv7-vz6aIR16AvwdMLQ4P7MsSEARnYErzl5tppaX3pWZdb37s6vPuVtrA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163200359808892978/a46b2d09-2c04-46b8-953c-5c4f19f3bb1d.jpg?ex=653eb5c0&is=652c40c0&hm=04f4ee920a60bf944f7640d86749307d54bb9c22501e8eaab881a3bee923250c&",
+        "message_id": "1163200360056377384",
+        "timestamp": "2023-10-15T19:42:57.055000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 43,
+      "row": {
+        "caption": "Photo of hands of different genders and skin tones coming together against a soft sunset backdrop. The hands form a heart shape, emphasizing unity, love, and the shared human experience.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/43/image/image.jpg?Expires=1708398270&Signature=zI0PNIQ0kUhyyIycQpIT67Qf8CPWOhI7o29mHiRKCodq4RRWzyrMNGLFwe0zQQvghX9K2gCnU099sIWW-665pj3gm8IuIy5tQPUZcD07bCiE2e429B4vzrHeqFgwbtKEQqEddO~-LZTbs-pQUv9VZn2AV662e~nLSZLQzi6wzVc9lJJC2E8lv2fnq7PU~sJnRq2ss6F3yKIu7JJmNk9EGHJ-SfvID09diph9Qh3X4LvL6FWacdI2AQYW0hE~PeW9YjpL84LiS9ApA3lVlFvK-re65g2mZ7pw~QPt4BF08jaDCdK-Po6lPrLIvfhLNmT4VmNO64GQibTotKP9eqdw2A__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163200358370267176/DALLE_2023-10-15_13.54.28_-_Photo_of_hands_of_different_genders_and_skin_tones_coming_together_against_a_soft_sunset_backdrop._The_hands_form_a_heart_shape_emphasizing_unity_lo.png?ex=653eb5c0&is=652c40c0&hm=8a2d0e7eb940f63685b5f5dbc2d0bc88bd96437e4a6a0afe96233f0bb547d630&",
+        "message_id": "1163200358324109415",
+        "timestamp": "2023-10-15T19:42:56.642000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 44,
+      "row": {
+        "caption": "Photo of a male hand with medium skin tone applying hand cream from a pump dispenser bottle branded 'Hands Down Softest'. The background features a wooden table and a vase with a small aloe plant.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/44/image/image.jpg?Expires=1708398270&Signature=ZZPm2tLNPlGuxoPoawxjiKVvgU2p7j5MZ4P1S2R9glGTwN9z6gVmn-11bsUUYq9QEqnDrbkCnk4YAEaeLeXGKRIAwxIXNT~EbJV16jeMiXSNOG01ZPw2Exa0mtmaPUcGGFK1aT51zKjNJ~GSSTvVSEkNHqiyb0MD9D26~NJ1M9-9geRFG9vJeeD0GE90rX-~8h1cdVhx-J15nGdoiqTo3eq-LXKpYMZwj-IhGuqGxQfrY5t8N8vSPSv-0RgqLtCDiHzpaTgbCOzxRLhHLqG2vXtZK8bY0kALIwsCeV4y5JqPmUDZJZqK2PPvxKbd~0GCxTylik42yuDFWiDDzVa6gw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163200300241399828/DALLE_2023-10-15_12.02.02_-_Photo_of_a_male_hand_with_medium_skin_tone_applying_hand_cream_from_a_pump_dispenser_bottle_branded_Hands_Down_Softest._The_background_features_a_wo.png?ex=653eb5b2&is=652c40b2&hm=7feb155425810bd83dfcf4737651513d3189fad5f8faabeb6a1c2012c94d022d&",
+        "message_id": "1163200300765696092",
+        "timestamp": "2023-10-15T19:42:42.919000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 45,
+      "row": {
+        "caption": "a golfer preparing to swing her club at the opening round of the golfing championship. The green golf course glistens in the background on a warm summer day",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/45/image/image.jpg?Expires=1708398270&Signature=VwOohmB3lPqVU4PR10ihfQkJDCjSbW3AadUgCcwUORSKGxC9lni6blp70D47yl51pt7uucXVUwsQ0MwwxIGzqTCnP~bpeT1u1d78Z4xkthIEBgr~i7G96kA~Ilf7abar3de1o4UnKFyXeJWm8RdE6tt1C-QSovsntsmazvaz1j2br9ti2FmtdXPhwkUyc7azCa3IS8mDVsYIvcmIMSafO4y4K2Kn-r7LfRChKhAWJFItbHWRay79~34df9~QrWvG09iWdmf86~qfUJvpqOYBNkRd4Jk9h3NgX-VG5Ykn5ohtJyh34szoJHFMHPuVIRxYG8m5vdB7FVExHIeYNqZKsw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163200272693219388/1fc170c2-8b9d-44df-af94-f180417f7633.jpg?ex=653eb5ac&is=652c40ac&hm=6e4d4608295ac46472729595eb4b2ae3043f8be034269be2da80acc7dc5872eb&",
+        "message_id": "1163200273301393560",
+        "timestamp": "2023-10-15T19:42:36.371000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 46,
+      "row": {
+        "caption": "a golfer preparing to swing her club at the opening round of the golfing championship. The green golf course glistens in the background on a warm summer day",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/46/image/image.jpg?Expires=1708398270&Signature=J90~SLHQqSwtDRD8M4jFpU63ZmwGp9pg5NL4S5CNx2-HHoR7Jba2mtWgh9ScUS4lhi4~YAjOzA9U2PnimGNJBmW77oQYCHDGovoVo0o~m1ry8yGgIsUkdI4o9YC1D~LLzf~PqV5oT5PoaQtd9cUmmuPxIw5FpH-iTc6KK042M39DUYD2xdFGnqLoEEluN9JRNEAvlQx0h~ODyCrsnGn~VXBWnm9JREU-2yeMRL41xFRdHtnvl3uJVtVT73Rlzxgop03pecwMtHRe80Pjrlk7w7hLBC3wyKzjLxKgx12YJhlUDWmGJcZb3c5m3WaqjJ2tj3lyaQXEeam1cMk69mRdLg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163200273066504252/d50a055a-6672-4fec-99f3-fdff0ac59ab9.jpg?ex=653eb5ac&is=652c40ac&hm=4ab1bdb945a8c16d576adb8c327e57304e0b06013443a9d52ed72e22cb4f03ef&",
+        "message_id": "1163200273301393560",
+        "timestamp": "2023-10-15T19:42:36.371000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 47,
+      "row": {
+        "caption": "Artistic representation in HD, 8K of a pair of immense hands, each adorned with five fingers, created using natural elements like flowing rivers, tall trees, blooming flowers, and a radiant sun. These hands seem painted on a huge city wall. A Murano clear glass texture forms the background, with the silhouette of a colorful city subtly elevated from it. Embodying touch and the essence of human connections, the image blends urban and street art influences, with a dash of futurism and a touch of Hokusai.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/47/image/image.jpg?Expires=1708398270&Signature=Sn4dtUQw99b7uAP6p8Ov8XSqPhq-iMyaXlAkCIuYTaUBq6rGkT48CjXyNYaxCgzvG9nwZZ-1EU2nDm5Xd4NaC9ZPLEIpeWMyHEolmQMwFJ1NMViDDhRovFNs4bIQ1xPRd7Lf5tJX0lLZr~gLykRf6CPJKGMH4PoqwBA9diismc-ZhyFviLW8bjW6LWC83~NU0Osc88uOp9csvoyV9Atpt5xnIcifysx0a8RzJMrrcWBNMA7XiAbl15mbpb08kyhZV4oybHI58g07KB1fB7ZWTdBxDplWr5mA3uOKo-CHclNRuxEIGkCXbthqpMJs6~gYQGnjzE6tIwQ58RIIc8ymWQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1792
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163200243404386445/DALLE_2023-10-15_20.20.04_-_Artistic_representation_in_HD_8K_of_a_pair_of_immense_hands_each_adorned_with_five_fingers_created_using_natural_elements_like_flowing_rivers_tall.png?ex=653eb5a5&is=652c40a5&hm=63751cfa9eabad9aec32a5d4f082b7e4262d3c3061e630b9c1f66880fc561a95&",
+        "message_id": "1163200243718967347",
+        "timestamp": "2023-10-15T19:42:29.318000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 48,
+      "row": {
+        "caption": "Landscape illustration showing an Elven maiden in the heart of a rainforest, riding a majestic dragonfly. Her hand reaches out, touching the plants and trees as she passes by, symbolizing unity and connection with the environment. The setting sun casts a warm, golden hue over the scene, with the light creating intricate patterns on the forest floor. The Tribalpunk elements are evident in the details, all emphasizing the theme of hands - the power of touch, gesture, and human connection.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/48/image/image.jpg?Expires=1708398270&Signature=KmZ-~T97XJhj9kFZo9r3sp1fxnt2IghxuQYgVRDZ3i2RZf5S80wEXYeU7maIVtUmr0rmyyWtQdejg9XMdqEnCJcTwtpTWNKHFNf9MGN2LhQQD0~cjSNb3zefhUMi-Yr6eYUqy7LliKlywNI4J3LN4bFm1Qr3eoyJpn4bIYg9IcD6-kVeBJIvwlWjAtlln4X93hO4OvyTV7EcgcCpU9G9ylot3We-cfxWPZOVz12rqf5m-4~ndzdrRGYxErgp38OsoKM8e6FJFLYnLXgcAyu6MlvzRwS2Z9~ozBtMWZSbbB4-MlQQTOzBT7QCPWXRZcCVB3TU5dsOX21ravigWYe-ug__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1792
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163200117390721095/file-DX1qhugRCOyHGHU5As8AC9sM.png?ex=653eb587&is=652c4087&hm=a7444e0ea85375f7487e33883178f997a6f6a85a2d7e207e27533da6b5f6ba72&",
+        "message_id": "1163200117780774953",
+        "timestamp": "2023-10-15T19:41:59.292000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 49,
+      "row": {
+        "caption": "Pastel illustration in Rococo style, showcasing a hand of a woman with African descent, detailed with ornate rings, holding a feathered fan with subtle gold touches. The hand, with its rich dark complexion, is depicted with meticulous attention, emphasizing its grace and elegance. The background features delicate, whimsical designs emblematic of the Rococo era.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/49/image/image.jpg?Expires=1708398270&Signature=hboM08nbGtJhPOJrhb1UmsRvFNhgnG5XRRKIzPMr~kbiZjL1DbYVdmGrL4xb4uhVadTFLUH~MoNdaI-E41AjnO7YFA~1ueg4Q8JAz7PxCEraRR7Z4C9HubMz2P6SzrLEVp3IYRZxMVAnqoNZSpgkJaPmOwAoh90-voHLC7Vw163BW70PVNfTlwiZTilKt3OzDC0ATE1f2pI3Ld6R2YaaUOqmlQl0UTVTo2e0tF9UnpAs6G8nwWiRpZI297YmmZsAzETWkY9c62ffDwF7DRpVMxyfVjVpH6654q1EH-wZnXTxDVa90aNpYa186oxjNZDP~cEMNzDFqPvZQg7kZ-oVYw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163200049359110205/c6b40441-85b7-4cdb-a320-3ed2485ee9f9.jpg?ex=653eb576&is=652c4076&hm=74ad35d3a36f27c873cb75addbaf5c7988dde61ec5a9ad47c797b7a60a6cff00&",
+        "message_id": "1163200050214735952",
+        "timestamp": "2023-10-15T19:41:43.183000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 50,
+      "row": {
+        "caption": "Pastel illustration in Rococo style, showcasing a hand of a woman with African descent, detailed with ornate rings, holding a feathered fan with subtle gold touches. The hand, with its rich dark complexion, is depicted with meticulous attention, emphasizing its grace and elegance. The background features delicate, whimsical designs emblematic of the Rococo era.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/50/image/image.jpg?Expires=1708398270&Signature=UB52eFojRaJ3ASxRWespW1VLliYp29IpY3fZJuy0kX5-VvQfH83lgVIA46A1sM74hKhVp4JfWNXyR4Jyt2k2N8CDveqxHUns7CDa9F9k~x8Fh--wI-04Xn3A6uE8H0EakG6AKtmujD63V9E2HOIixHYOT8ApUlllpfhNA2QNgFcj8wuWaGDR7-Z5tSmAY791G1ACL43PmBcjAyZuO-G-gg5QOA-XWahWofLu2cAAHuBnv1VU0fhwaXlBmbmQIYbasHAz4t7nHOlZ0cMlA2k8vhBeuPTCge5ihK7vIHzowVW3CrdRF4mBHtLV8gYT9hn~MKjACVKDtJgXheFtLjifXg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1792
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163200049891790948/DALLE_2023-10-15_20.18.28_-_Pastel_illustration_in_Rococo_style_showcasing_a_hand_of_a_woman_with_African_descent_detailed_with_ornate_rings_holding_a_feathered_fan_with_subtl.png?ex=653eb577&is=652c4077&hm=045ec89f4fb2ac95844a9f834a0c46995bbad717498dede964860e31ae71de7a&",
+        "message_id": "1163200050214735952",
+        "timestamp": "2023-10-15T19:41:43.183000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 51,
+      "row": {
+        "caption": "Photo of a female with dark hair, taking a bite from the butter chicken with evident delight. Her eyes are closed, savoring the taste, and she holds a piece of the golden-brown naan dipped in the rich gravy. On the plate, the steam rises from the butter chicken bathed in the gravy, and there's a side of onions garnished with chaat masala. The surroundings suggest a casual dinner setting.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/51/image/image.jpg?Expires=1708398270&Signature=EEeLOpVsSxh0UmGjhUW1wrBvGXusOT79nzT6FczHggod3KtzcU3mvHSri2mvVW2sTYGi7bf7GjcYh~Eo3L1hwtm7AvktNQOGlhZM8ikDth~Hkw4tmdB0KGnkypP5ZkFyRWpbIhD5awgEdgo~saXP83KtWIck52g2ObVnPGiRhT9Wv60TiWn~lY5s7Ssv8CGrqskOHJ4dUDoKmm4gUcqtr9B31OTRrAcl6O7k5aJS6pjE-k~1iIoPZksyfsTRO1yLQ7Tr~44yv4W7fnGtdHWpr6SEMiCFOtJNclcztt6pmv7BAqTN8G95NsNhGGyAm8heDTtMgx8NQj06jXsxhGTJlw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163199205498699866/DALLE_2023-10-15_22.38.04_-_Photo_of_a_female_with_dark_hair_taking_a_bite_from_the_butter_chicken_with_evident_delight._Her_eyes_are_closed_savoring_the_taste_and_she_holds_a.png?ex=653eb4ad&is=652c3fad&hm=7f94bc4c81ec194ddb038ea6db2353e7fe4f4a6c49a61b98b63a86ad192dec02&",
+        "message_id": "1163199205800685619",
+        "timestamp": "2023-10-15T19:38:21.859000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 52,
+      "row": {
+        "caption": "Photo of a person with dark hair, taking a bite from the butter chicken with evident delight. Their eyes are closed, savoring the taste, and they hold a piece of the golden-brown naan dipped in the rich gravy. On the plate, the steam rises from the butter chicken bathed in the gravy, and there's a side of onions garnished with chaat masala. The surroundings suggest a casual dinner setting.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/52/image/image.jpg?Expires=1708398270&Signature=ZhkczWQu0Fd7j38-8hmsbOfaadOff-HyccH6Be56y~RZR3CTTqVJmGmtMSW117EUQ4NR9lyX5BAXc2Z9Fk3DJDnsOw1skRsAzwbfiky0hzdmJ2HlTU70~9d9B7rhzF5pTiQFxyk1F0orLCOW6yHS6c~gGY0eYnkqgFT~TC0~7Q0LvpxGhS0VZGUAFqTuRQ~2vc~MO6IHrL8SwHTHfFgm7DoC9ajAiRmuMFYsYT2YvyiX-lp3oplmaC08-i4iM2D3jGhvurrQTsLdl08IPE7bHzjvYT5ipDZE5kOF4oxPTmpuF-UsgPeV3m7Af2NRbM-XIqfW9vNJEj30TyzpKC8c6g__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163198541913669632/DALLE_2023-10-15_22.34.31_-_Photo_of_a_person_with_dark_hair_taking_a_bite_from_the_butter_chicken_with_evident_delight._Their_eyes_are_closed_savoring_the_taste_and_they_hold.png?ex=653eb40f&is=652c3f0f&hm=94bd27e17450856ee360835b19ca136d1b8fd9db60157bbd490a59028dcad036&",
+        "message_id": "1163198542245011628",
+        "timestamp": "2023-10-15T19:35:43.655000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 53,
+      "row": {
+        "caption": "Photo of a person with dark hair presenting a steaming plate of butter chicken bathed in rich gravy. Alongside the chicken is a piece of golden-brown naan. To complete the meal, there's a side of onions garnished with chaat masala. The surroundings suggest a casual dinner setting.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/53/image/image.jpg?Expires=1708398270&Signature=bFCVcyUHdnTK0UCKCh4CfELs8v57Hiok7khwMpMkpxT16W0obXOdGaVsnm3k4Ni3GTj3uioY7HFZ9MwsMcryi89Xp8ytyYOb0-V~ywSSIGTU0mZOijxnvvZXndOQ2NE0RyzHBBxGU3dtAnJ7obI2tljGl3Q3gUtfS4QhX~D~srF1HjDYub3xD06ZRxHYgXLN2Dv~TX5Lrbuhln51ztequObfKU8LouhaIW2egjr-JF8DD6Gxhd6CdfstDDsg9a~j~L8NPSHtkW93V2D9A5g9H6H6D8HFH-1rk1u9YTPPf1fv3Xj292k7Q9eveDMmqWAOnOEvR9uHeKuGlZT79nwfRg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163197855901683794/DALLE_2023-10-15_22.32.14_-_Photo_of_a_person_with_dark_hair_presenting_a_steaming_plate_of_butter_chicken_bathed_in_rich_gravy._Alongside_the_chicken_is_a_piece_of_golden-brown_.png?ex=653eb36c&is=652c3e6c&hm=c3f094755c6f61ad8229d662451fc829bd0d3fc9837d0ffbc04aea1781c6669b&",
+        "message_id": "1163197856203690044",
+        "timestamp": "2023-10-15T19:33:00.090000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 54,
+      "row": {
+        "caption": "A digital painting of a woman walking down a street",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/54/image/image.jpg?Expires=1708398270&Signature=VAzE19PMIHl482tyN4zl-G0YIKEGXlAK~~BirEmPqKSLWU6tr91z5JF0Mk5t9Qeg~fZrm8bT~DksEkouLl53NJANgzMI8xRlcEZW35beI6Itcok3RMn9U75yNRuNz~lnmFpyAJxy8eWjcCUDMADojaqbmmwDKzPL-qSzB6YXUCHEjpcg4eVD8guFBWxzVL5~fPrT-c2x0k1dRzxH3MpH61VQOcJKybZg-o95HHcjBsAPj9ufJByXrwmN6qU2E5dBpJnR0FHQFkI9t-bbWTnyrtw-3x~qE5Ak0PxAHWoMr5WzjyeeuW5drN70WzkKYmyhEz8OyVeScvT~290~Kvte~g__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163196500743049266/396be2b4-c097-4993-a22d-1724ae090f3e.jpg?ex=653eb228&is=652c3d28&hm=2680668e8281dad313e0a654cc38725b08c13d108a231135ae0d0c18f64d309f&",
+        "message_id": "1163196501879685280",
+        "timestamp": "2023-10-15T19:27:37.194000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 55,
+      "row": {
+        "caption": "A digital painting of a woman walking down a street",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/55/image/image.jpg?Expires=1708398270&Signature=JOT19qRZLe-PvoDMTLx37RPvc6mbsf1Ee~HVjkidqz3gbT64XHj9dem4sqXeJ07JOgTiUGyXLys8b1kenYbzHMrTkHxP2oGBS~bnfYgbx8h2thMNKaAHSkFvlN4-ELr-rsqR7ycGOheX1AcM9YUwCn6e8eMKk2~7gl93uaw1nr7QOWJ9uCzIEwLpMkgltjKcTHzkVMFjPDEWWWidC8iEZzQcjxD0ycaM55EL8cXNjBh1u8Dmgd-rQHTra4oshvKrKu34~TJUhPyZn0Y5ap9cI1jPjrW6PI2Kh4blcEvHvKirOEIldDm1vsg9F00R3VDCH2mPw2eiQpf3S31KWdSHcA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163196501032435742/faecb20f-a443-40a6-b937-ca236a562cce.jpg?ex=653eb228&is=652c3d28&hm=9045a79f8c73f9163ad29bb8e12f69b25400e41a1415b0c7b423f44b258800f1&",
+        "message_id": "1163196501879685280",
+        "timestamp": "2023-10-15T19:27:37.194000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 56,
+      "row": {
+        "caption": "A digital painting of a woman walking down a street",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/56/image/image.jpg?Expires=1708398270&Signature=xzDXZOHVJZRUeO61dszBl1UdUpPCd5CqbLFavqTclvlaAp2uEwJhTryZPhWHAEQZ2EVTDsdYKBoL1peuh4cYVvUAmzTM44z6MSXMpRGZPuc~CtVfR3x6BFYetKAuSbmrathNIdFE8Zj-SmvP6yRjrh~V4s5Xz7uvKp4ri0NSKhEA~IBh56Be2ZKWNS6LlUaNXzvoQEnpj2pXTfF9isAUf~pjOA2fMFumuoDg4ENl2NutqXf2ZiIVCIet3dwfAroVapzCfZfXn5pzeEbUyPxQad50wFBURsMYZeXyJHEAdd0EAxqCRyHMQiljyipHPhyQN5Op~JMqXTZxsde3sS0-eA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163196501334438059/3074e43f-9987-47ea-b0fc-472e39ac7256.jpg?ex=653eb229&is=652c3d29&hm=cafd1508541b7fa090f6e32fd631f0646d354f1e3c96e4f45a4b8b8801ee4d9b&",
+        "message_id": "1163196501879685280",
+        "timestamp": "2023-10-15T19:27:37.194000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 57,
+      "row": {
+        "caption": "A digital painting of a woman walking down a street",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/57/image/image.jpg?Expires=1708398270&Signature=HKZ7~6DLznOGbicmSSzgQ5ZuHpRG0At2dM4yJL6uoKXP1yGYys2YWK8lsTpJmenHOAmOVTk3mm9ACE2r0tDj0nf25BLl380u65jX7rUBs0jEUYjRDqGTCuanYAAwWpUmTg16YscULVajhL650rJO-vnocTrSPbcObO8hDJXm1mQE-9uvWSR03WmftyfQsewjG5lYUPjkPjqNVWsVPPwsiDM3G6xXby7cDDWMjR1kMX~cc86-HlD3sJrhHCcGbiVKhVWm55snKJQg3TjAPeTfv9nvKc8mAzTKi-Ck-hULCNQFTnopfRrgG46Xv-sCK~ETovTFgKfcsZ8F~XQGc3ZP0g__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163196501598687312/ed9fbc34-4ad8-4541-853c-bd17aceb8758.jpg?ex=653eb229&is=652c3d29&hm=670fcc97278126e3dcc64e1447bc2a1edacf81bc68bfb687946c3cc2e69f41a4&",
+        "message_id": "1163196501879685280",
+        "timestamp": "2023-10-15T19:27:37.194000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 58,
+      "row": {
+        "caption": "The art style in this image is a mix of **realism** and **surrealism**. The content is a cowgirl standing in front of a desert landscape with a truck in the background. The cowgirl is wearing a cowboy hat, a denim jacket, and a pair of cowboy boots. The cowgirl's outfit is a mix of realism and surrealism, with bright colors and patterns. The background is a desert landscape with a truck in the background. The sky is a bright orange and pink, with clouds in the background. The image has a surreal and dreamlike quality.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/58/image/image.jpg?Expires=1708398270&Signature=WtAQz07Ouftq0QT80hluw8843oZbjx2C~WTPjHJ8WBN07uhbisHU9q1AbphxT4ub2A2BrahcTXM~BwGopNmfzQd3qwsqyU3L-8meq7PLHJBNINoK1jktqnx7m5eHTepA1oGkGxwdtIFPUwA~pWHjF~ElRxqmChx-F0zqE2raDJ3sJzny9r2pMLinG73Sh6TXxJrVh27-VxC7efC36tNCcpJt1UuHvKf~-2lIcbyiyr09e5Knkm88KC2kQsr6bRX13IVC4FwdWfp3QeEL54CTyrX7VCQ97JQx9IdA3Ew4IX8~h2FHZr9inSPdSwovgRT~OxKGlW1s1r9i~04ZbUaAlg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163193760587460628/3d4e5888-5bf5-4266-a49d-6891eeff48da.jpg?ex=653eaf9b&is=652c3a9b&hm=66cf9a013aeffa5d1f5084f6435bf5ee499cec7667172af51d1e12afd656f12d&",
+        "message_id": "1163193761724113016",
+        "timestamp": "2023-10-15T19:16:43.890000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 59,
+      "row": {
+        "caption": "The art style in this image is a mix of **realism** and **surrealism**. The content is a cowgirl standing in front of a desert landscape with a truck in the background. The cowgirl is wearing a cowboy hat, a denim jacket, and a pair of cowboy boots. The cowgirl's outfit is a mix of realism and surrealism, with bright colors and patterns. The background is a desert landscape with a truck in the background. The sky is a bright orange and pink, with clouds in the background. The image has a surreal and dreamlike quality.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/59/image/image.jpg?Expires=1708398270&Signature=QwJZzT-Hn2jp9W2VysHIX1PfVt3~J~B2l3jYjFbDEGbYT2EgMa~qkD~0tW7uU07fdl~K~j8IclIlfdoWjJImP~9aTprIVuAD1km6FhJ4EvK3Ee8f6ZJvc4dd2ZNr02NSKHRCdkCbdeo2U6ZX8U4idEP3VKaCksFj~rObKmc3POOwOm9Kj9ny7o~-ndXFLl5fC~uV2D2U8BzbsT6z0pbcIvfHKVHRmyotfJ0s2prErlyA75C~WnulLewCR-ka3KnHcGk2W5cMBzLc1SfTS7VJ2~qSpOi9uqJda5P2ZP6G55Ouv7rKDXiT4EE5DdSLSvuuMCdJ-Dfk0~Xx9s8b02KCeQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163193760897835150/b5f820b2-8b66-4ab3-96bb-6b0a1784175f.jpg?ex=653eaf9b&is=652c3a9b&hm=952f4f2f1bfaebcc4d9c96866f230b465785730d372e46f5b280c6dc24114286&",
+        "message_id": "1163193761724113016",
+        "timestamp": "2023-10-15T19:16:43.890000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 60,
+      "row": {
+        "caption": "The art style in this image is a mix of **realism** and **surrealism**. The content is a cowgirl standing in front of a desert landscape with a truck in the background. The cowgirl is wearing a cowboy hat, a denim jacket, and a pair of cowboy boots. The cowgirl's outfit is a mix of realism and surrealism, with bright colors and patterns. The background is a desert landscape with a truck in the background. The sky is a bright orange and pink, with clouds in the background. The image has a surreal and dreamlike quality.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/60/image/image.jpg?Expires=1708398270&Signature=CNn1HHm8d9m7Gv3ECN5K8G7iiiCjDAnbS4O-ZBX6dpsn0ePMxDrrpY9ZfAbn8TnVz3FZFZqCnQxeDRnevxQFKtMiFbtNrYG-ZZD6dLVeQ0EkxMTLvxt60MrAmr1GJzHrm23R9GgEDitQtTLW2-~wTZb65KF0fBPT7Q-ckiR6MseG8M2g0b0YNGE8U7h6dGhMdNwtS-v05UXVtZPYy58oemNW0w18fxe2j2UTH4bvvFNtN1~KNPCi~LqHwYajr49pINXaL4GMMQhYSMmTPqOcsCW9jUW4-mLh14Lfuwsd0X8LWdQbxQcxtLx9iYHzTTTGhvXE8krQWspKpynPZ8zxtA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163193761170477119/b2250e71-5243-4428-a7dc-e01f28dd3d9d.jpg?ex=653eaf9b&is=652c3a9b&hm=1e95af7373b77bedc4b96389c349ef4e193f7080ca7c88fae80556e728fe7217&",
+        "message_id": "1163193761724113016",
+        "timestamp": "2023-10-15T19:16:43.890000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 61,
+      "row": {
+        "caption": "The art style in this image is a mix of **realism** and **surrealism**. The content is a cowgirl standing in front of a desert landscape with a truck in the background. The cowgirl is wearing a cowboy hat, a denim jacket, and a pair of cowboy boots. The cowgirl's outfit is a mix of realism and surrealism, with bright colors and patterns. The background is a desert landscape with a truck in the background. The sky is a bright orange and pink, with clouds in the background. The image has a surreal and dreamlike quality.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/61/image/image.jpg?Expires=1708398271&Signature=QBI5I17pu0-tM3df9eNq7oFRFtUn-bse0uDlGQbSAIwwCCnOUkRM9elzK1aQKrHUtOh2LI9gMEq1sGwCNL3fTmDF~jlyWORfb6SIfcf19wXO~VmqnqZaF2Obc4R1ZwUZ1qRtTrjq63wHhw0jbPEJoWH2DDVmULsymXHGol4uk27jaZRvQiY4MaQEU0v6PX1SNsdaHaOd0LsKJvHldJnzs7SDDvTG6VBe1RIHQCz1RPtVrHbAXTd7jVVKLvRQUCr4yGRlleBWGrumbLobU7EMof0-PLd39yL1NQ6ct1EMk9u900UItDRn50Hz1cM0FaRCn2PmlpkMIV8Mqk1Uu0w9Yw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163193761468264548/c34d30c1-5019-4d0d-9721-29e89ba490b7.jpg?ex=653eaf9b&is=652c3a9b&hm=70a65691e0885037c0638db2e44c751d5790fa6552f32f583c39dafc4126e8f5&",
+        "message_id": "1163193761724113016",
+        "timestamp": "2023-10-15T19:16:43.890000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 62,
+      "row": {
+        "caption": "In the heart of a dense jungle, a large bulldozer with its yellow steel frame started to clear a path. Its powerful engine roared as it pushed through the thick underbrush, snapping vines and uprooting vegetation, leaving behind a temporary corridor through the once pristine wilderness.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/62/image/image.jpg?Expires=1708398271&Signature=CDMmgm7qeBq6JbduHCz5Sco1AtnffYDd3sowP83kzbMjKgbF7gpzvohAczH4y-CpdXdSDfHovKjSiV~7MyMn5cp1kfQvCDw1ODN7eafEYBV50kVtM8u2s6OwOPWpm8~q0YatkmajeyxHoxV9cGM6hRVuQrL17tP99BfyPvwvkJlXGSirU15-vMrvoc~SJ7U20UmXLS-3ovwBVyMQfWA7n1hsSPn1x38N9SifGzmtdBiWbOKFRuxyxqqvJcKKjaLpybENrRr0g9R8N3Zw~MF79Gqo9YXZvHVjhH-0YQYzos9WSejIS9wU2Wuzn0mUCU~bPWsBJ6U2mSNtBk57Pb9dFw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163190759953010779/a3a0f1dd-f5aa-485d-9643-0e4ac7950a2e.jpg?ex=653eacd0&is=652c37d0&hm=9b3263ea254a3828863fda7d85ab3146e7c621c1c77c3cce917b047ac758ca88&",
+        "message_id": "1163190761064513556",
+        "timestamp": "2023-10-15T19:04:48.477000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 63,
+      "row": {
+        "caption": "In the heart of a dense jungle, a large bulldozer with its yellow steel frame started to clear a path. Its powerful engine roared as it pushed through the thick underbrush, snapping vines and uprooting vegetation, leaving behind a temporary corridor through the once pristine wilderness.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/63/image/image.jpg?Expires=1708398271&Signature=OSo9v--27h5-VnnoCN6YzrN1d5ALKN1UBA88kZKFexT4OtX2Fnr8DzWCCOuJKSqgrqagEyAfIBQc4kwIrlpxbEcOXdqQGMWB3SbSQwmCfmUglVKsd4w01iF-Nfm-pNm8ML884FS0eza9e2X-EeaC0F7zNczrX-OHXCD1msOKCWglTw-knZpXfk2wiCU2B90hRGdxwiIT9vqyRnD4sTBqdV0nlYO48UO0K5WnfRKVWcejT-bbS4EGgqTg5~vaxeyteZnoLizhrZ0VX6SnembJKXv4bFAIkrK4V6S428Cm9n1VOXyMRsyEZYA-EdLMyoLe9dJKcYv5fmWN~ikDMwusJw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163190760242430082/029d729c-d665-49f7-8fbe-4c3f23123e12.jpg?ex=653eacd0&is=652c37d0&hm=86ca9c27b982f4acd06e7eaef7d2b0feaea5a577055d5bca68147d33e87a5fc9&",
+        "message_id": "1163190761064513556",
+        "timestamp": "2023-10-15T19:04:48.477000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 64,
+      "row": {
+        "caption": "In the heart of a dense jungle, a large bulldozer with its yellow steel frame started to clear a path. Its powerful engine roared as it pushed through the thick underbrush, snapping vines and uprooting vegetation, leaving behind a temporary corridor through the once pristine wilderness.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/64/image/image.jpg?Expires=1708398271&Signature=p-LYLJtJfrMFIZGclOLb6YAwDJE~mIsBcDZMcaggsGwP-F-oMhLY9UOJqaBjbsdadr5APJiSwu5z4RL92J2P9R6QyRg2fdFFln3H7cJd-HBpCVgkig-bAUnQDoojAix~WM1Vh2-JHo52qxYQQJaim41qdf3n7puawHxHnmeDorY8rYGlYuXnCUusxV~sMX-IBTC-0W1zs4kMV1QXykuLIh5p2AVR-IAZ-imc9Fx4jowkMX-lZadNyGzyGH9BiPeLsB3iWSYE5l0EOEJEFbtfUiYunAWLcPUgajaSHGTaGgX4mTz2QilxPfeBxZ1gZvXuF92kVJQkZxoEigLHaL5roQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163190760569577575/2ef905f7-b833-4d6a-9411-b053c68d6d16.jpg?ex=653eacd0&is=652c37d0&hm=26737e0597cd14fef038adbfa5fef5334953a3cb709a2dca4e7cc17405658198&",
+        "message_id": "1163190761064513556",
+        "timestamp": "2023-10-15T19:04:48.477000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 65,
+      "row": {
+        "caption": "In the heart of a dense jungle, a large bulldozer with its yellow steel frame started to clear a path. Its powerful engine roared as it pushed through the thick underbrush, snapping vines and uprooting vegetation, leaving behind a temporary corridor through the once pristine wilderness.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/65/image/image.jpg?Expires=1708398271&Signature=an5TB8ZVXVTRcy8~tKkDIkjbsWEC~PLjqkKEspqRHYqlWqpPP~9lxK9KW7CtfBb~oRbcJ3k9jINHbXmnzMJ~9s4OQuXmpRqyQasj0124GbKpW1FWM2Ye2qVrClSfQO9Xh~Ue56w6vrI35IF-wt8rK5uRYSJis5pkGqwKirrJq9Z8v0kxR7BiJ4OoN-psNEACue~ooONgf7XpqhS33z08AokNFqlI5dg7jlYI56~a7Lct0aTIy0ic27PGRihkSnGRFFdCDhQGh9jA-RLwkgmLx16gkvjCH0oiqbyrKtn-1tUzFCMSUA5t9xdZMlFZCLQCz1UkXokcAtRt8SBPvCMA7A__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163190760833814688/3b90b5cb-6842-4ca1-981c-679038816769.jpg?ex=653eacd0&is=652c37d0&hm=cb545298e6c33bf3147ab851d8ad8df28cf130f6d3d89f682b7ed22a13a8c52b&",
+        "message_id": "1163190761064513556",
+        "timestamp": "2023-10-15T19:04:48.477000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 66,
+      "row": {
+        "caption": "Photo of the famous Venus de Milo statue standing in the corner of a traditional English pub. The statue is half-covered by a dark green tarp. Wooden bar stools and tables can be seen nearby, with dim lighting setting a cozy atmosphere.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/66/image/image.jpg?Expires=1708398271&Signature=hjA4jH-H-T4EO1UnjP9hLSQqEUGDU1sm2a-ufH41GkY3T9G~v1Ubgw9x-mX7oTw-YKRfmN0kv9j68eKNgvX5WRie1c8lz0HqXgopcSLVjf-DP6m5gUK~bWAzucvDaexe9e854KsYm0ASeDfKfbOq45JFkhjhNk7Rz4RwokpXEJUkJuIzf3h~Iv1gDoxHXUkXLzbszqSfECa9zdM5qIB1oCUFTRJWCp1w6PswOQz6BT94OOaDuOTYqFsLY57-0o~Csl~XoY2fvkfynCpBbBnomKtG7L1gUrQgqwPcWl-uZSCfu~3GQLjTI~XR5f6P-KumuneW8hmKipmMTSaO4lipbg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163190382000087120/d1705a89-f0e4-4a00-bde7-d9f17df4cb5e.jpg?ex=653eac76&is=652c3776&hm=6458e810b0665744425193791eea225c5ceeb9e6d891aeb9c64d988a70c7cc57&",
+        "message_id": "1163190382302068796",
+        "timestamp": "2023-10-15T19:03:18.173000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 67,
+      "row": {
+        "caption": "a realistic model of a computer art on a white background, 3d model",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/67/image/image.jpg?Expires=1708398271&Signature=ZwBGZL4kzIxmTCfxDKkkofq2Sit-XB0Dc00wTeTbQ~nFZIKeQt8c8hjACI7H3So7agyv2ETsnKEmo-3Gbubdm8mkeQpyim0n-LyC7yEtDYDr-6RDJeFjMcfsCcXnkXj~76TsUboWREeO6d5pWCZ4OE8a6bQqJIyT~vvkGaDdiJPiElcxzOeQ~O6Ci0Gc-1OcyUq365GuypNqYsRc6FoYD-InuFSnRMBx~YrkyfcO9ZpCa1ayTMbgZ6cNyDtgFRpj0u6QxS4CMfcuxBgEbi-BTZy0qssgd4Yz8IY1BAPzMhZeJ4Vh3qooZ7iLiAfp45Ow6plZDnKZKQ6XvN736PI7Fg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163190005414498374/c91675f6-1aa5-40c5-b81a-2106277eb975.jpg?ex=653eac1c&is=652c371c&hm=2f5dc07c0677bc351fba7bce03aa7fed56ce55508f48d55c60e00d4f728ebe63&",
+        "message_id": "1163190006551171243",
+        "timestamp": "2023-10-15T19:01:48.587000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 68,
+      "row": {
+        "caption": "a realistic model of a computer art on a white background, 3d model",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/68/image/image.jpg?Expires=1708398271&Signature=DDgLPRe3R87wN7Qh4hBTGYwUDbcu3eHYnj90VH1LSnUhCdQfnuZevySp4DS-UpwvR~2SIQYgSsCr22HcBydB~pPcTpA0ELSdVfdA70oAM66VVP2eQtC76KlLbhfrO-DUyKclCraQy3xlw6ctRIiphmOmzB81tUxW9gpsXutwypGZbDXd0ON34qnDnrKxi~Ip5k-DvdEajfnHUqQwu0q7CivQcJhID9Zb2rnHgBb7A0sfjaEY7wPTxcb58leKxZfpVq3pE50mlKjfhAGgWhSJ5syi4dWUFtEF-y0LG-9sT5gl1K1k4B67YYbtK9pjaz9qF12QIdfV7pkfKn9wI0A1fg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163190005695533146/1478f9a3-aa8c-43f3-b986-fa018dc3a5eb.jpg?ex=653eac1c&is=652c371c&hm=da170b5c91c74d9f9c118f3c938d806fc14e5112ffac02a529c81b33129ed0c1&",
+        "message_id": "1163190006551171243",
+        "timestamp": "2023-10-15T19:01:48.587000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 69,
+      "row": {
+        "caption": "a realistic model of a computer art on a white background, 3d model",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/69/image/image.jpg?Expires=1708398271&Signature=gxATreJIXkq1Ac3BHsu4tSqqiPAI8lg0SFRas7jvGyfNiOQcPInd0AIVHwdO75OA1JDK3cf1o4w-Pggc3HNt~RP69tgWeKaqurnn1H4SqWzdSZSBhBvjX5uEq8IFK2GRLelQsK9u4Y4QsHIbY6yPtU0g4U~2763-vrCrSPstS1J0FKALMy-hzoFWpRTQpd3gNvzsvKmwBEtJ3jQLT0bygat4tgP8O7NYG5m6FZcgvEwiCY145F7doIkSfOr7jAYpGkg6dDFLD5pwKd~U~SfYuXB1DGRPGRdS9lUaQkXTSiDzajqR1CPP~KjZyF2Lv3aYO1EInvkAXtKUQ2SglpvFvA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163190005980725348/e0935757-0ab9-45da-8f62-91eeb7e72c48.jpg?ex=653eac1c&is=652c371c&hm=92de7cfc467b69fb570e0e33406abbce58a01bbd61aab4c7757f5756af7e5320&",
+        "message_id": "1163190006551171243",
+        "timestamp": "2023-10-15T19:01:48.587000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 70,
+      "row": {
+        "caption": "a realistic model of a computer art on a white background, 3d model",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/70/image/image.jpg?Expires=1708398271&Signature=INtXciTymtBeJTzFvCI0S7-Vh2QOpFcY4kybs8BRnuiRVm-OUfb48xEfm6KQbyeZx0CMQBAUfyubAyTWEOuyS2iaGU-rW6Nn09gx7K1JqGpwvdLqdO7o6KVY-1mu6q97bDtWwTOL3GGIPDn7MeuAAtPOtQj1uZfxXH62Tq7mKLwikEjOMbD5Si4YuAsix9fhMRKr0~a67spEkb4YX49ztPNwsCFrKvgzmpt~JwI~DzHwwaJtcOPs7EW50r68yj2a6pT-igDL-AEUW-5f1YgVTZFKoECgqQKyULmuRRpYhzud-2Pa2TWWwCOQtJb~rR~aS7g38-lYueSB2E2jET3LIw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163190006282719433/aa86ccc3-cf54-4b20-8cbb-b51124a7035c.jpg?ex=653eac1c&is=652c371c&hm=f28741ba14d56d91377118dbb0592b6885e4a31cbf4586cb0449478cbedb41cc&",
+        "message_id": "1163190006551171243",
+        "timestamp": "2023-10-15T19:01:48.587000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 71,
+      "row": {
+        "caption": "A photo of a young woman with long blonde hair. She has a pair of headphones on with cat ears on the top. She's sitting in front of a computer with a large microphone. She is a Twitch streamer.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/71/image/image.jpg?Expires=1708398271&Signature=DP0hXidmBHz0XNlVgq1g~F~5-1QjD7-PrSZfySGCVwMGcUMV7wqQoxhnb5zK2zhK61-4WqjOIsDtLempiPuxUiwpCozeB-HPytzM7X9~qAe6aFCZr04Cy3ccjUev11DKSFO2euImElQ7W7iDKfiWwuJzco-mSDWeOU0pN33N5uYjFDuHKyRfgYbfSr~FygXpL1AeoAZYZE7FLZZANNRDoEYyNIsi4RKlPOB7sm~BhuiwjFRUoauTFR6m6~p-wc8KvrCYaDzmEy0KpijeA1nCkOssY2nXJ25lo~VbLS747lGS7nWH~2qj4~N4Ji4KWeDrNplozsJvtIaEiUS9l2A1dg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163189821569761451/7dd29836-ef25-4d07-97cb-aa85f277a8d6.jpg?ex=653eabf0&is=652c36f0&hm=09367396e0c7bcb1883b32064d597e74a6505669c06b57a0f44dfd0aebba584f&",
+        "message_id": "1163189822064705587",
+        "timestamp": "2023-10-15T19:01:04.602000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 72,
+      "row": {
+        "caption": "A photo of a young woman with long blonde hair. She has a pair of headphones on with cat ears on the top. She's sitting in front of a computer with a large microphone. She is a Twitch streamer.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/72/image/image.jpg?Expires=1708398271&Signature=J-iP5H0QeiNCqaZkBDZBq17F4s~vYQPxx3mJO3QGIYES5UOpBTn5P~PYxmP52jhB2XR2gzDEQtNtSrapMLoS~EMpMZoGeraeIe6~55ize~rd9bDS2WSgVOpwz6DhgM8ilBPrAcVN34K4gHWjxmzy0E-EYjyYi3xUFzEH36g~UIHpF~wYJJ0HfYXBp1~xDnigiHWpidMmRcFzPCs4gqpSREDoZDEciWVKBj4PNFyvEwbyj9yRF~V26IB9ZtqVWbz7l1ERwA80m6UvktSxrQwTUSpIaLVl-8Wa7RNJ0vdEjpHF5Wq-dyVqdcMe1zKtiLmDxBG0Tz2-p9rINVDRSZz9mg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163189821842399394/de75abba-cf48-4b17-8f1f-bee96eac7327.jpg?ex=653eabf0&is=652c36f0&hm=f0ff2ca2da9b4ee37c8d2e6b7cc88f50a5731cd1e50edd9929ea5560fabfc7ba&",
+        "message_id": "1163189822064705587",
+        "timestamp": "2023-10-15T19:01:04.602000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 73,
+      "row": {
+        "caption": "photorealistic painting of a young woman wearing black yoga pants and a pink top with long blonde hair. She has a pair of headphones on with cat ears on the top. She's sitting in front of a computer with a large microphone",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/73/image/image.jpg?Expires=1708398271&Signature=OeLv04~3ELtQnwsDUoDckNHEkSgQzxYKCOdR9CHmU-sbEN17NK6xb8yDqZ1QPXY0aMTIYL3C9gcKJgYQ61ot6IethWbTWbEdi5oz4W0fHhpcu3mkRQXdEzMWK-Sjx2DaZ17Bgeg4zPEgLRhhUAyEi-cstjoJgETiUWo6Gg12w6SG4YfZ5d96QrDtaUbeIefrP0fnPhQCSPxbruTSgTXxylHGkT3GCSLnEdC50D3AqzwH0~xg7992duzrumBO40kuDs56gZcFSnO7h9l5OATccCy7RO69rQ76HaFn8Qt6L4VE0hpT9AGvM99fOuhiT62zVq4u2n7RZBBfJ3r4xAL9XQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163189111218253914/d8273b8a-a4cc-4915-9f3a-38b5ed1b0504.jpg?ex=653eab47&is=652c3647&hm=1d9b7cc8aaae2d2bccefdc9847da307404587bba86abd788bc08d1123c806620&",
+        "message_id": "1163189111482490900",
+        "timestamp": "2023-10-15T18:58:15.186000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 74,
+      "row": {
+        "caption": "Photo showing a detailed marble statue of a woman in the corner of a classic English pub setting. The dark green tarp conceals a part of the statue. The ambiance is warm with antique wooden furniture and low lighting.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/74/image/image.jpg?Expires=1708398271&Signature=mkR7eFYbYPbeKqOxKmFG6y0z5mxW3i~xVWWx~NDOkqwZnoLVx3vur2Qf7319eZrHcfyTACCay7D2UkbAMaV7HJ7ITjhuFWWY6pAN4I5b4qcLaET6az-scjYq8pWVO9jwYE~YIZFez35b2qpWdLYfNWszrbN89p3YqUKw3jl6dGUY~MAIkhdpHArisLX5F4oPk3YuEUsBeqXjliudWjaBBLBPDGOq6ckRWiivoCxzdZMvO~jVbiZehjwnUegz8hn1utxvyKgIVdoUyV3KKTotkNPz0sDDBbmYKBfRWZ9TtcMhnvZ2zDlNk8tVMne-7CffNwZD6-6RCMdj2j5XAGlRpA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1792
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163188441530519562/DALLE_2023-10-15_21.54.44_-_Photo_showing_a_detailed_marble_statue_of_a_woman_in_the_corner_of_a_classic_English_pub_setting._The_dark_green_tarp_conceals_everything_except_her_l.png?ex=653eaaa7&is=652c35a7&hm=9de2d45a7aaf9df40649b28b5339ab4ded9327d74b6242ffc9ef1461bff0e009&",
+        "message_id": "1163188442025426974",
+        "timestamp": "2023-10-15T18:55:35.575000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 75,
+      "row": {
+        "caption": "Photo capturing a marble statue of an ancient woman positioned in the corner of an old English pub, with a dark green tarp draped over her. The pub's interior showcases vintage wooden furniture and dimly lit chandeliers.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/75/image/image.jpg?Expires=1708398271&Signature=XEsfW~~RXTb6T95pF6iVdU~YLcWJcd0sMvj63t~dXtOONHDlQZ1tHVIijVH378NkO5kNqkfK7Pp2ZcU0~2fsPMH~0SrskirnQqeOKtNXdFbtt-C57XbKaBKADzFCpPbzqiFsGAxrMWID84Wm1w1XUai9WS2cQBoeMO009J-9-BXq2LFAjv5OZ3mQBYvLIBYNyTezCPFtBqZXwSVpnva827vVfoPfga0XfEsL0olcTfnz7aWEfCTBt5o~~cxFZq8nnr~RTfoe8e57MUzPEh2cjjyOfNyW9tnmk2ri65l2XLvx7Zl9Foex6bicN3NZvvUUvXqByaiTuLU0PiX22LN0sQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1792
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163187981008515072/DALLE_2023-10-15_21.52.39_-_Photo_capturing_a_marble_statue_of_an_ancient_woman_positioned_in_the_corner_of_an_old_English_pub_with_a_dark_green_tarp_draped_over_her_revealing_.png?ex=653eaa39&is=652c3539&hm=b38ddd85671314a29165d811ad8190bc9f343f64b5d50c1fe163168c7d94e069&",
+        "message_id": "1163187981444714517",
+        "timestamp": "2023-10-15T18:53:45.764000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 76,
+      "row": {
+        "caption": "Photo of a classical marble statue of a female figure standing in the corner of a traditional English pub. The statue is half-covered by a dark green tarp. Wooden bar stools and tables can be seen nearby, with dim lighting setting a cozy atmosphere.",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/76/image/image.jpg?Expires=1708398271&Signature=0U18NAztHqiLcOzzLGz-J-JjVYoWKyf4S~Ns5vmbcP5H6aogCf0hhlYAkCjOPKUBuaHmulzjQ4xQK7MmuaPQkH4fe3ksxZtB05EwRi~357o2kPi-FPM9AXLJBrNz4fY5vx~e0WHti5YCWmyIYpaYwcX-F93Dg4Yl4aa5hXk6k5HMmSBLvpJj8Xa~NLO2287FXtbDo-DjmHUnf-UKsYD6mFVF9QiRKdBWfx66X2OXWofHTFvQK9bVMQ39RMfaOozl~Sdjyxbzs2T1NjhfeduwzBYFjRbgwcYtSeACUn1DINdklgyGN5KLGCEVg-pu6WXxbs0tOxPhR2K6wtvsCdZpdw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163187516812296244/DALLE_2023-10-15_21.51.04_-_Photo_of_a_classical_marble_statue_of_a_female_figure_standing_in_the_corner_of_a_traditional_English_pub._The_statue_is_half-covered_by_a_dark_green_.png?ex=653ea9ca&is=652c34ca&hm=b296ab2cbd13669b8f84200cba86882084144298f1ee9668c2d86ce8ad6b18f1&",
+        "message_id": "1163187517093327000",
+        "timestamp": "2023-10-15T18:51:55.054000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 77,
+      "row": {
+        "caption": "neural style transfer",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/77/image/image.jpg?Expires=1708398271&Signature=pLEcRP6cIxHayigs3rxE0mZXbHAOgiqPEwp6-eF-v7rkh2jrNGzQCZ-xtWndEw1jb55U7HBmvLv-9j5ntImYa-K~wz19N5E60Em5C3-XGxw1UOpDW2Gcsrn3gQStzah6-39bE-zUU3rluKU4l2Uvsv39s~Qq~hMbBRXvijzO14wBmtapEN1tS0B4HK909itdy4MYVrJbAf9auUmj4OvmRRyJgclLY1B6Vk5OCLdDSO8skdx5T~oiJ2KEnalIeU0CLy0p64QRD7lX0Cehe-jXJjlm0H5Be-ozcZuhn~mud7EAMBByNdhdKvX-zpXrYil-dt6QgKBHE4HWUJ3Xaz0kgg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163182572508037261/06fc01ce-b7c0-4f56-9288-d9c0a93b77c6.jpg?ex=653ea530&is=652c3030&hm=319f4e76aa01bf0c67a23e34045265cd4888e97157235220a8cb81f604eb9258&",
+        "message_id": "1163182573074272309",
+        "timestamp": "2023-10-15T18:32:16.308000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 78,
+      "row": {
+        "caption": "neural style transfer",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/78/image/image.jpg?Expires=1708398271&Signature=wZYOlcYOqmzrIAxf869f7gAg~I~yCER4wj4kTwaOp2hsS5aD4bJLl7vqiCANBbf6dLyyO88QnshOsrEAfG-6voXbfUmFseqyUHzcgEgNwhb6jBBod7~gdjg5eRQLHvZLZ1fA1zNbtTwNOTgqC3M2zngfaaa2VKxIDcdiVz1VuUk8cLXXMVDJ88VEnt7a9NLXc2Axe8bH~DVElE5hs4GyurmvUcqFK3mbzkOFGPN7sLl1wmMeW4HtbDBiRJb4R8IAr3zN-AsMh46lq-hPpK8oTnVhfuzSfIvzNSEE~H51RvlEiQ9langXSSvJL-waxuEoLJxU-TkU3DLBT7kpinxTXQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163182572780662824/e899fba4-6d05-474b-b3a8-ee33281e4120.jpg?ex=653ea530&is=652c3030&hm=074ba43500f4cb8a4b182f293d63e086ed3fcf36de9177dd6712bdf67d8b149c&",
+        "message_id": "1163182573074272309",
+        "timestamp": "2023-10-15T18:32:16.308000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 79,
+      "row": {
+        "caption": "neural style transfer",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/79/image/image.jpg?Expires=1708398271&Signature=wcMDdwTMShx6xiWGAaa2D3W9zFDjmKgt4ibWdeXpBFv58tma3FATCDXuCtPbDP-i-rV6e1jBjGVR0XSDjhzDUkUOHqFR3T-HZeHHmyRaL6aKaCwk8QJLeqqQN2lxA~C1RU~iyUsMv9WL0eoNdewjkXlu2Uc5KPy8v4wwDC0U1oA8OENp7YAhVTBWd-2pzASnn1q5ooKJxmDB3va8qEXO7Sr10j564-VfukAyHkQPmGUfo-cATXIEUL50x9MIZ479WSAnp8948gjm2vjluKyOlAXYRIaxmQkaOcdMklSzcbVsdtFDRgGKN~M1YHIDQUU0Egeq18EW8SsLNzmpnGnaeg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163182573095239760/be8c6dde-44d6-4a36-b83c-58695d9106d6.jpg?ex=653ea530&is=652c3030&hm=be3a24d5d2087a512e5214ea45984302abe0a9862c0514d79deb76d082ab7681&",
+        "message_id": "1163182573074272309",
+        "timestamp": "2023-10-15T18:32:16.308000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 80,
+      "row": {
+        "caption": "DeepDream visualization",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/80/image/image.jpg?Expires=1708398271&Signature=D6gPPQ~EHLxwZSfAogREHRsei8oq6-ddrmXNOeKoRToHbO858HXmr~XE7wkHOPyGIpka6r3P2jpGR4pOmwkXvjny5hQ5nRjISf42VKINjvwkT5D8ywHKA~yES8PVT2J2TNwzNMcsqTv1scnF4J4LCgIPUBG1xSn1mIy9Z87BN3qg81TXJ4aKT8~szd0iErLdKjqOlqWckaAccMZ1bT-jQfMzySWW95WJaeRk3mvkPnJX598Bh8E1lV7TZgbfbSu4Idz57mcvv2R171~0mbk0ED9UhsPGpXxEIdvhAsxHCnAiKkeXgZQKzAI8jl3MhNSRYVoCIQhydYGmOYcVknVmeQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163181349063114762/33d4d411-87dd-4b1e-8074-f9ad3dfb3056.jpg?ex=653ea40c&is=652c2f0c&hm=a131b8dbcd78c77fcf45e562fd70c271986a6a932a1013dc9c67b6ea7fe41233&",
+        "message_id": "1163181350313005167",
+        "timestamp": "2023-10-15T18:27:24.779000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 81,
+      "row": {
+        "caption": "DeepDream visualization",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/81/image/image.jpg?Expires=1708398271&Signature=g8nBv1F9K0yEr4DDE0uVXX3QLmrDRSMaD444L4mH3u91pxqLHhCvLOAIrZuhUyczgdtLp7D0L49afPSswUkCsv5nO0hClYkxJH~YAzH2R3jvdkKgdWEcimKUscnILAzwH3j1joEahJjfAtSLA8Q3rfbNAlrF-oNbBvybhI35N3v9UNZCHazU-tKMcmvJ5OAVJRLn7OYZJHv3HTVZFALodB-FgRy3GBSz322W49PQKoIhNkMSSNnM~8eua5C~1y8u6IhoCr~HZOoqk5rZGFCKyVr0Uv2u9ckMfM4p1ujYO5rP6nELKrdiVLjyIswwVlOZpqZJwggbiF3~KkFSFbGL3Q__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163181349428007012/9554fa7a-105d-414c-b173-f20f5b7222f4.jpg?ex=653ea40c&is=652c2f0c&hm=e0f20b4ca2f34f45ce65a0d220bbeb32d07c848c0f541e2be8116d7a0f34a0c6&",
+        "message_id": "1163181350313005167",
+        "timestamp": "2023-10-15T18:27:24.779000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 82,
+      "row": {
+        "caption": "DeepDream visualization",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/82/image/image.jpg?Expires=1708398271&Signature=eCRzXMdAZmX97KqNYfEyY7ELonFRkpfaTmi73j~KXx8nmMkciIm1nMoXNMvWNbv4cFpM970S9vuljVCW5ZjfqLYjKhoU4qwHvBzi8v5z8RlJ~if~IuWu5sp2uT3rOoj9usAE6i-zCTW7EhEbfi22hAzEpLe6xFN1YquGXwiBu9mzlDUd6FS6g6rVcJRThSpDqONoVaEvmVo8SXqlFKS18NOheA6h23DqlftOC18F3nA~hZlReC1nmBcPzI8Baix2Cf0Ju7SmaWh0mex9SwKQfK5DNvks5SicVbAgNJ~35vg0NPksy0iSk2TdxzJ7Q910XfK45UrQoNvzLzLV8p5thg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163181349742596278/af6a9568-11cc-43cd-a77d-2b60623d3131.jpg?ex=653ea40c&is=652c2f0c&hm=028536c1de175818bd83f91fae6146f9aae8d56cccb3bd529449708840807fbb&",
+        "message_id": "1163181350313005167",
+        "timestamp": "2023-10-15T18:27:24.779000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 83,
+      "row": {
+        "caption": "DeepDream visualization",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/83/image/image.jpg?Expires=1708398271&Signature=PJbKJUktSofDgCsM5e63g30B5RtF1xjkqrPn9s1yOypFnx9Wxi4QWeZ-5xzeizCPXWuPwhxBU3eOiNM~tzJOuxOlgxzgNOHpyOMyGxDbjD~mYD2qTDwlcAyx2jqYJMeSVhKAYT--7FfUEXz9vjBRhW0h639Reg38KcoZh7xXVxO5PtJgKv4JJKAIYRrNK9LaVGLnI4nVqh9QH3roEcv6zdX1ThAwDY96T~jFAWRfs42AfHF1gZ3oX7P0zJoAf78CPGH3SzfQRoYaMhEUOvg1RYephKTBQ3JSys6DocVTfcu~W-XyaWxUaIh1H14B4K6ERpc4~IwqPYC5TgKcJTnJ~w__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163181350099107932/e745debb-6969-4afa-8520-117a01f65e01.jpg?ex=653ea40c&is=652c2f0c&hm=84fd9f6baaa98d338965749fbc1ed45f03407420809c9add89afb2833081155f&",
+        "message_id": "1163181350313005167",
+        "timestamp": "2023-10-15T18:27:24.779000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 84,
+      "row": {
+        "caption": "🏞️🌠🌲🍂🦉🍁🏔️🌙🌨️🌈🔥",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/84/image/image.jpg?Expires=1708398271&Signature=HVMSQfaOl5YenMxG525v-FKHTttzta-d90uEfTZr4ZFz7fi0xvO~BvhZp4PiSpSQUva6kL~bp5yNgRW80kwOTUNRRNFp68MZ5Tsn0TgcxW7zHX0H9Apo67PdqzAcWB6Wn5Q3jixUwOAcMVq~z0te7U6fB5ATcygiS-BTa9KhC1iIcijhBEfURfnFvAPw-ah56w6QdjrPSZ2I8LwBM1n5xOE4I15oFkeUr9u8R5BKhDRI2PtUGMm-Xnl48~2n9bUkgVcKitGyN1OLvmqv9UX6eiFC1kn4AuYhEi6KYA6DC4R1UpU~wcrGJVfmW~qlweg3JcFRy20jBqQ4X0ZqTjqpuA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163180577118244955/DALLE_2023-10-15_21.23.46_-_.png?ex=653ea354&is=652c2e54&hm=4fb7047be0f803844ffd73c2f40e192a521ddae472e3e5e2fdf1667a749962d7&",
+        "message_id": "1163180577449590935",
+        "timestamp": "2023-10-15T18:24:20.514000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 85,
+      "row": {
+        "caption": "write a sentence about anything",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/85/image/image.jpg?Expires=1708398271&Signature=oW81f2~sqbLnMd7Xr7a4~c7mOA8CtdohgQtYjBFYN3dI7P24IitCl0SpALd48mPUxA9ZYD0AViWYeVGVNZA5AHFKHuEsfeG2WT3xvrk4kTh2sIa8Ijo1URcKPa1ZQs4-j4YA4ykJ1~Y9OsE0GYfqz2otZqbJ5D6e8yd7uVmKd8wy41-SwKw309~H2lfL9uGhe8BPsuak2VnHH~vE4c8aiMUG3zwiXcmFCVraeOQUXAkepKqg8wyNPxEkIkFIgJM8p9V4sB1kc0PSNcfkh9sbB0UxldYpFv2Pz~P00KD8z6yNX~-7mAxfGm5ABDKTeqacOfT38utWmeYH3MD0EmZ-Dw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163180488278687835/65e2aaa8-14e6-4516-b026-64fcc79ef21c.jpg?ex=653ea33f&is=652c2e3f&hm=2890d000c6d5094da552d3d1096909066dfe87abba56e2635663209cc0de786f&",
+        "message_id": "1163180489234972692",
+        "timestamp": "2023-10-15T18:23:59.482000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 86,
+      "row": {
+        "caption": "write a sentence about anything",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/86/image/image.jpg?Expires=1708398271&Signature=A~cXpBK1wR-hluaMfe4Ir-yW4i5VcSUCS-m9HQAsDw-OjOFof3wmL0lbL1jt9t2VsRhvH02xhW9k9z8tymRI7Xt-JVElMqGzYFMoI5tkX-GQzoSUIDjqI1LWTiXxqkpDlH7ibwgry2P7jWReuVJrQVIF8K0k1wJqS6qVwuN6IAh74DHCR5HzUpQFLvoYNtPuUbGuxzHuD7SCD7yFi251LQ9eeh4xkC2WgOiZE2tVCdnpB1CHr5CIkMUQy7fXLydtH0v7wnGvlaI6Jq76puXOwv97tym5NcGpJJyP6AIY1Qq28ER2PRlSNJqKImkjYiZIfLm8tKU6t4j-hpTbxSFOpA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163180488589062255/4c15fcc8-a189-4b2b-b140-8792a3851719.jpg?ex=653ea33f&is=652c2e3f&hm=89bb6e12b1398d906a4d6199e6537e42ad539598d6bd2c95d0437f1a0efd7839&",
+        "message_id": "1163180489234972692",
+        "timestamp": "2023-10-15T18:23:59.482000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 87,
+      "row": {
+        "caption": "write a sentence about anything",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/87/image/image.jpg?Expires=1708398271&Signature=s5bYxNOp3q4BcB8PH-r90VrAYbPFMjwEGcfhkVtnk7PekYYOXuub6dQxNGqEEOejtu0zsjFI3aTrhV3rzc9udFEsG0mAul~-8Z2CyBh6k0JM8TrC3fd-JBt3pNz5cD7w9YeiC62g2ppP-9brX4nihi0xSdeIw2kFj4bgSTtj~LTxzlyD4qf3mrsMpJTdpHRb5s9ot~KfJhFk0WqIqABLWX9IMgjAmXs~ZyL~iA3xQDj-jJcbygwSvhpOPrewktBfVUD5LulOsTpFEuidb52APBdGi2sG5W~12tuaV6ynbyyKv6MtDO20XIlNzNkA~RSsrqVocQTtVCGnZrHF7ikvjA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163180488899444986/64d9236c-265c-48ef-ab23-1810814a9eb1.jpg?ex=653ea33f&is=652c2e3f&hm=1d5e4e7e6f610c5b98b69b953e921ceac6b9bc89987eec3a0018c0f07c86c16b&",
+        "message_id": "1163180489234972692",
+        "timestamp": "2023-10-15T18:23:59.482000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 88,
+      "row": {
+        "caption": "🌄🌿🌸🦋🌼🍃🌳🌺🌞🌛🌈🌊🌌",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/88/image/image.jpg?Expires=1708398271&Signature=t3gcr9RODEV74~EubNihS6scqH72FWGRq8VP2PmTQ3lsCpfNbfI4w2hLFrOdO1x9XGMgFc7Sem6fefv03PB-nmdhhvsoRVqvb0kKs7zp54~uLJ2RUGCqK-IuTXHnYoqe4SwlBL3vhw9pclZe4jJR6-BfxmWeHbAIOEVmldNNY9N7tkEz9tp2zYBjv5WTUGYh0k1eOlprxUjWQaXZoxzaXV3Q6Vkuj7O2iBYf0KVZlkJub59JnZwVnBlUWUBOf5rEYk60TOI7AldkjgRe02hon1-0oiyiPxK2QH0ws-ZfJ~~AaiS4Ks~GnJKtSh~SojFNnc6-K0bOFC89lLa~0VkDVQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163180199270170624/DALLE_2023-10-15_21.22.06_-_.png?ex=653ea2fa&is=652c2dfa&hm=48eb0c632b114dacc2e170435e2d8d5a7f6a81de7a184b3c49f2627a9a39fbcd&",
+        "message_id": "1163180199777669211",
+        "timestamp": "2023-10-15T18:22:50.470000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 89,
+      "row": {
+        "caption": "🤡😜",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/89/image/image.jpg?Expires=1708398271&Signature=iMze1rMPxnXkaANqxDm5X1PakmH91TpsZmnp7-eyQTndaHqQt1ARpOIvpRqcOHjnO2FnpSrgee3juKYyIUkcR0ZnPqGIuQ2ss4MlPQRydVxQp-7N8Rbn84QZCGy-kaNmVBnSFIMn3m~WSf4d1WHOtvHmLBgmJkP5e7oNKPghDNV0pLqZ-ucfuZFVv-JxU7aQ5IE-Dx9R3Kal3siN7qJz7Q7G5sfD~RZ1RWkMRb0Yqn0mR92Di2I~ZAiwH~hz1iuskZyE-25jO4DpBLR58s~Px~jm4OXRlgVGzk9NVRJcmRhn9hIEMNx29Zx9PblpLY3DfKbBASLcT5F6BNX9gLUxJg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163179845996527677/DALLE_2023-10-15_21.19.25_-_.png?ex=653ea2a6&is=652c2da6&hm=dd55e76326d404064ef5de887913b2423c6ae37f9ab818ae2baf9e2792dc7639&",
+        "message_id": "1163179846483050637",
+        "timestamp": "2023-10-15T18:21:26.238000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 90,
+      "row": {
+        "caption": "A photo realistic painting of a young woman explorer wearing a snug tank top and practical shorts, complemented by fingerless gloves, a utility belt, and rugged boots. She searches the dense jungle with a machete in her hand and a determined look on her face. Her hair is in a messy ponytail, and her clothes are dirty. Her skin is sweaty and dirty. Ruins of a ancient tomb are concealed amongst the jungle fauna. She has a cut on her cheek",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/90/image/image.jpg?Expires=1708398271&Signature=WHTxkB83RUdeWvLb5tP5QnX3HpYGA-7NnXgUOX5scOfNlOhLCl3o4ZwQ4EkVtWE9qwiDXHz9JyceMhoR2cCNlIvssTJVLgp-GbvINjcF7DDhBzig7XiwiloEkrx55eUn3BGiykDaDi223a3-YXVJ8DhMwMAuN8CdA~d72-f5uDB~BBdXNrGOVj~zoZNgAm99N3CO5VmPXUOoiao9Asebz69FaWJrLAwR4b6HLlGMHmp5oj1GhIigMifEV2t5-fOcmbfHhN39Fd~M5L5MWHeqAC-BpE~Lak7mXsOc4BmX~RIeRmxKK8TP89vmhzhshkyy95sjkriKoQUii0VU93Dv1g__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163179364964376666/f87cb05f-28dd-4d6b-841f-d3106cd8ea2b.jpg?ex=653ea233&is=652c2d33&hm=55b2d046f7787ef0d0beb712b00952582e7ca03500e4350b68d6153916861652&",
+        "message_id": "1163179366432395324",
+        "timestamp": "2023-10-15T18:19:31.785000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 91,
+      "row": {
+        "caption": "A photo realistic painting of a young woman explorer wearing a snug tank top and practical shorts, complemented by fingerless gloves, a utility belt, and rugged boots. She searches the dense jungle with a machete in her hand and a determined look on her face. Her hair is in a messy ponytail, and her clothes are dirty. Her skin is sweaty and dirty. Ruins of a ancient tomb are concealed amongst the jungle fauna. She has a cut on her cheek",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/91/image/image.jpg?Expires=1708398272&Signature=M~gVwEhfPfMF1SblMmjx~uN67EF~-IKHTc~SjQBSsUPx2OhOeuyxQ5Uv3~RDc1upIRNJ99lleuXFeft0caKS0S9Hf25wqPSdt~gqIpoEO~kwIb-4dM2J~qekXwcEz7Y9U92YWHAG2VQCI~94o~A83iTTuMgSZReleYpT2TVJrItLVukDhpF8lxvcO6ju8yd3MTiyzDuDdGDTRcxS8MtD4ZB8RMFFPZzI54LrbrKrwCcqa68JVQe3KA5E7JNAOcNtOugF2DA3woW5I4UR9oIqNpWuD64W~F6IaW4actoLBXLAymyXOqND0qnrpkzUrDplwd1yhfRnTvosxo4U9ZgAag__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163179365434151042/eafe8225-9a05-40a7-ba62-5da6ece26cd3.jpg?ex=653ea233&is=652c2d33&hm=1f7b833b7f627aaa5d1aa71cda2d3692eebf829fe08a77306c007d3840f022b3&",
+        "message_id": "1163179366432395324",
+        "timestamp": "2023-10-15T18:19:31.785000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 92,
+      "row": {
+        "caption": "A photo realistic painting of a young woman explorer wearing a snug tank top and practical shorts, complemented by fingerless gloves, a utility belt, and rugged boots. She searches the dense jungle with a machete in her hand and a determined look on her face. Her hair is in a messy ponytail, and her clothes are dirty. Her skin is sweaty and dirty. Ruins of a ancient tomb are concealed amongst the jungle fauna. She has a cut on her cheek",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/92/image/image.jpg?Expires=1708398271&Signature=Lh~4yP5~Vs3wrCv0F~CgFDZ0r-9N-aIB2qylJmzz1vqx12EvCm3iYX5pmBllSSUp3Gad94RhEK5Fx0VNQ9j~BStcxGLBM2FVT~HIBUjQ4ImNi8hwX1lcJ4gP2AzzZGINSmCiZuTKx9DmTOUggBj6dP09~K6UUrG~LeAvr6z0ovAUc1y~Rtv8J30KgKuUxYXbNU5BTeY0v2tYDX87e4OGqOnj2E~OUXguUoQTfIFWOzvH3zZIoZitai~jeLgp58WTtkaHzadPIDx81crDm62VzJf4gFpIo-u998ZOLs8JLBdTGGvqoONCZeGVpp5N2tV1mDd9EcXt0O3msvpEfXmqng__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163179365870346260/d5c76568-d4f5-4661-9efd-68f96b53382d.jpg?ex=653ea233&is=652c2d33&hm=6362fa12fbf919a47db0b74a2ae514eb00918d41f31aed31c71bd18e1c2098aa&",
+        "message_id": "1163179366432395324",
+        "timestamp": "2023-10-15T18:19:31.785000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 93,
+      "row": {
+        "caption": "A photo realistic painting of a young woman explorer wearing a snug tank top and practical shorts, complemented by fingerless gloves, a utility belt, and rugged boots. She searches the dense jungle with a machete in her hand and a determined look on her face. Her hair is in a messy ponytail, and her clothes are dirty. Her skin is sweaty and dirty. Ruins of a ancient tomb are concealed amongst the jungle fauna. She has a cut on her cheek",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/93/image/image.jpg?Expires=1708398271&Signature=QjgT1JFE0uXCLloB8SsV6v4yrfV18AN4buV-ot8MjkuWdPZktV~a1TFtMNq~rF80T50Oe4FbKSA3irLrVpcNfKx~FWYiYL5HTsThNzHkHMeGfQU-aK9HLZGjsICFUxZ6GINqgLK6Qn64Gu0s2AWbRjUCA8DqKX4qegqREARmdPwTrtS8TQsbDS5qgyx~rcbCaENvIVL34YENneugvNrKj1tJ-v5qDFmSbgKMiB04BqHOo3VxaocyyXYXTkv40FEILGWct~xwZHd5SoawuDj-LlLoPMYMnj27YEdMAcnn9qHPdWZcHcYnndOvVC-p2bIsdnUCbg8u63058L7wiYnQBA__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163179366197510144/13a9929a-4d6e-4f34-9157-474be866aae1.jpg?ex=653ea233&is=652c2d33&hm=b54f5058ad301474cf1882c58e77a04a0b34be237d437ea05f4d4d69d98e3836&",
+        "message_id": "1163179366432395324",
+        "timestamp": "2023-10-15T18:19:31.785000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 94,
+      "row": {
+        "caption": "I Heard Your Dad Went Into A Restaurant And Ate On The Food In The Restaurant And They Had To Close The Restaurant",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/94/image/image.jpg?Expires=1708398271&Signature=t8YaXScWWnNPiQnqfgqlMASkYPLS1wQuRYjVe-2kGugNcFOEcgwaeNCkyUXFJ2Mvkzc~izYiuDtaFy5RJYgdAvbpZCh19gm~qQO2kAFFz74JINi1lTWOIOvpeDhkrV6SoME27JOYWyf-2gh2yIH~Jsg8k~iM8HP7tSDN-y3uHH0j7bEuLoBapOS-ATvAZl4r1NvXYpxiKlUIHA08eIu5MOcVI5gnN25QxtXkLG-HLa4-EncMXI7kg4t3Bl1upGv0ukGSXGhA8nre30rxA429Pm429OrAZNl-lNAyu4VIJfWOlFLHmCjK0KtzicyDqKNFVfGagkyCOrpUEL6SFOlang__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163178572685529138/OIG.png?ex=653ea176&is=652c2c76&hm=bf593f2b1c455ad1cc22edf6e3ff05a9cd78c1812bffb467a759f3edf526a94e&",
+        "message_id": "1163178573545340938",
+        "timestamp": "2023-10-15T18:16:22.746000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 95,
+      "row": {
+        "caption": "A realistic painting of a young woman explorer wearing a snug tank top and practical shorts, complemented by fingerless gloves, a utility belt, and rugged boots. She cuts through the dense jungle with a machete and a determined look on her face. Her hair is in a messy ponytail, and her clothes are dirty. Her skin is sweaty and dirty, and she has a bandage made of torn clothing wrapped her leg",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/95/image/image.jpg?Expires=1708398271&Signature=0iL4UAwvLLVgLlrvhA4~VddnoWkqinmc0UBjhYYfAlBo5YCZejArqPX~cgcDk9Ujk9Crzbn69i6m4vLTrUEI2bwrd4grHFhqs00wA1R~Di5tbGa3VTiJkK0sFHjyGYp0KCHrAweZET8D8X6NQqu1NGDmcwJu7dGxNPcmF79Y15-EQB28uLbWAP9XiP16PDpAEB1RaBQK5Q29QfcSw1HiOoz1wowPDHsWy18SBjoYMWDasiLeiOBq1Q6BddRV1U8CpGT3pab4aLHJtHMOEqYN~-QwfLPYK2pqhPQ9zd5dJeDkMtq7xBj251yN6KQSLIVcVrvS5hywZkLKB2SMYChv7A__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163176050801520650/6a3b9338-6868-4f6a-a455-1204ad1dbccc.jpg?ex=653e9f1d&is=652c2a1d&hm=718b9730e2c9d638de58c10268068ba5807edac21697256814e6f35c162daf4b&",
+        "message_id": "1163176051023822908",
+        "timestamp": "2023-10-15T18:06:21.330000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 96,
+      "row": {
+        "caption": "A realistic painting of a young woman explorer wearing a snug tank top and practical shorts, complemented by fingerless gloves, a utility belt, and rugged boots. She cuts through the dense jungle with a machete and a determined look on her face. Her hair is in a messy ponytail, and her clothes are dirty. Her skin is sweaty and dirty, with a scar on her arm",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/96/image/image.jpg?Expires=1708398271&Signature=t3W~dZong-H3L4LltpysbDfQn7ZLoxt1H-19BUFhhdYhB1f-8gws-v6FOkgRQ~X6U5QeNg78D9u0XKmdev6Vd5Et7sKRdrQbXhOGufuW0PpvucvUv-LslFt8aJZ0ZSvMIXXSn~wB1N8zr7QPtw9BJNemtx3Xj1VphLKpZ3ux4YoHk17NvcXGHNfrQeMc~oOI4hmrkvaqA47PNjHFUrzGn7SXVznbtlTwHGL7fmUg932zwxlYXfzbRk9XXzkFbq3LPyHVkOq84HpXJWPTfjlKAi9PstTMxi3YBJ-a0UYaW3nYlbQj52S~rOTB213XZjJu0F3yKJgJvLobY00jdMbYMw__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163175390957818017/dc2109ce-34de-4168-b123-1646ee9707b3.jpg?ex=653e9e7f&is=652c297f&hm=08374ab361f0abff5fb51a33fa5d2c0ce3c1cd8f3bf6bb5cf583b5c8eb25d9af&",
+        "message_id": "1163175391234621551",
+        "timestamp": "2023-10-15T18:03:44.024000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 97,
+      "row": {
+        "caption": "A photo of a young woman explorer wearing a snug tank top and practical shorts, complemented by fingerless gloves, a utility belt, and rugged boots. She cuts through the dense jungle with a machete and a determined look on her face",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/97/image/image.jpg?Expires=1708398271&Signature=x7Oq8~9YJZFPKd0-FS121ZkGP0IAp2TFEYV1e46sMduUNBRdczFjt0tSf8iMIwMXW~GAc-7an7Cpn8rnbhsu85zsDtv32nYP0AWoPJC8sLnbuWPDh~TZGH9nLqkSWITj52cr~ydLM0F6Z2WyHkptgRTbAaHuyRjZhAKl~FxACx4mWQMKvw7dlvGIR41UqyrRsvmZNUSziZLNkl6YKuFSHH7lePB-uKiXGzQo0lMAp~D0oxjS3ynJGhxFMnY51Xqw8cNGCJh18QgREzBw7JjZHkdDxupn8ueKRZP9wnhlPCTAR0OVrBwgr4L4OfcXCyEUhK0i9P~ARuPoWAn2Bes08w__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163174124194123966/7fd17a65-3b23-4377-9ba1-98131da20b3c.jpg?ex=653e9d51&is=652c2851&hm=bf91ba9792eea105ad58f0f58c0e8940d09192fc06bc2231dc0ef12532fb2b4e&",
+        "message_id": "1163174124458360882",
+        "timestamp": "2023-10-15T17:58:42.001000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 98,
+      "row": {
+        "caption": "a realistic painting of an athletic young woman with a compound bow, the young woman is wearing cargo shorts, a pink top, black gloves, and has long blonde hair in a ponytail with an iridescent hair tie. The woman is aiming the bow at a target on a tropical beach. Sparkling waves crash on the shorline",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/98/image/image.jpg?Expires=1708398272&Signature=F-8kFT0F1szz2NhKkvnnVyhrJTb0YpAiNdICZL6jk5Hx9abdgCHIF8d5hpg7jrJTb4HKzoBwHw6iIcyfy3jK~VTy8tGXt3Xh8WMnpRQiVc1BvWwwIEC0JjnyS-wbIXaOKlIRqRnr0QEtVvSgrvgkl5ZyZVy~eJG0fqxjEsC5EeOEl2GwdMlDnOkz1bk2PbFzOtQLT8Ke58CwR~frJ8wqWF2~4nf3Bpn~1BeD9IYBEPeLx3ZGc~Tktwsr4UPUXHJ1ty8dhYGF~T6vrqgeAeK6ej-hELWePslR6012bbsdoGA0nSd54lGOE-D2v00Ig6uV-TUBTsKCqlgITokHpCQywg__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163171756119433216/f29013a3-2f53-4aae-8119-27900c28587c.jpg?ex=653e9b1d&is=652c261d&hm=dfae98235408fbfb3e81ab5fa9535ae2fe7d9df19e45d2b66c0407aad2a2fa43&",
+        "message_id": "1163171757293830225",
+        "timestamp": "2023-10-15T17:49:17.625000+00:00"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 99,
+      "row": {
+        "caption": "a realistic painting of an athletic young woman with a compound bow, the young woman is wearing cargo shorts, a pink top, black gloves, and has long blonde hair in a ponytail with an iridescent hair tie. The woman is aiming the bow at a target on a tropical beach. Sparkling waves crash on the shorline",
+        "image": {
+          "src": "https://datasets-server.huggingface.co/cached-assets/OpenDatasets/dalle-3-dataset/--/41001a632d8dc2c6ae41934a8e24ff4db8e5ed7b/--/default/train/99/image/image.jpg?Expires=1708398272&Signature=GhgWQ0U5sJD6hlDj9Ar01p6BwqO0FGePiWKYnEdJMlPI2B5TjY1MolxDz43iHTu9N2ubrVgMbYRcj0xW~aiW7-YqoMkUbKoP0H3mI41htiFxyBTBAoI2tIsIJx~ffDFwBkumhfR9AIPiQola0mGAjncuCQtUNkQXwXCl26x2NRSLQ6wSK~QYTjayixreYxt-5h9LDIIaSxiE30HGcGT0gPu2NOfvy81KaaWjZD7W8LSfYFzCyrufWDqve1ARgDwyUoCwAO8onvQRCcHa6hSAqvJ9Gl4U5AUFDGcaFKyt3uOk8wR1VqDqMw28sWugHfYsvPy~zreysXvEFDFmcaK1aQ__&Key-Pair-Id=K3EI6M078Z3AC3",
+          "height": 1024,
+          "width": 1024
+        },
+        "link": "https://cdn.discordapp.com/attachments/1158354590463447092/1163171756459163718/3e873bcd-a7d6-4104-8c2a-db694a7dfb39.jpg?ex=653e9b1d&is=652c261d&hm=54b92dbe6085610859f687220e0d5568f70c1346b6474f2a3ce8840943d27d49&",
+        "message_id": "1163171757293830225",
+        "timestamp": "2023-10-15T17:49:17.625000+00:00"
+      },
+      "truncated_cells": []
+    }
+  ]
 }
