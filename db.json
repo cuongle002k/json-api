@@ -1,46 +1,5 @@
 {
-  "features": [
-    {
-      "feature_idx": 0,
-      "name": "caption",
-      "type": {
-        "dtype": "string",
-        "_type": "Value"
-      }
-    },
-    {
-      "feature_idx": 1,
-      "name": "image",
-      "type": {
-        "_type": "Image"
-      }
-    },
-    {
-      "feature_idx": 2,
-      "name": "link",
-      "type": {
-        "dtype": "string",
-        "_type": "Value"
-      }
-    },
-    {
-      "feature_idx": 3,
-      "name": "message_id",
-      "type": {
-        "dtype": "string",
-        "_type": "Value"
-      }
-    },
-    {
-      "feature_idx": 4,
-      "name": "timestamp",
-      "type": {
-        "dtype": "string",
-        "_type": "Value"
-      }
-    }
-  ],
-  "rows": [
+  "images": [
     {
       "row_idx": 100,
       "row": {
